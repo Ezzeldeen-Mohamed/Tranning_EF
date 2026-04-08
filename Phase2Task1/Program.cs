@@ -1,6 +1,4 @@
-﻿using Task2ElsewedyTranning.Models;
-
-namespace Phase2Task1
+﻿namespace Phase2Task1
 {
     public class Program
     {
@@ -89,7 +87,7 @@ namespace Phase2Task1
 
             #region
             /// Third Task: Linq Querys              
-
+            /*
 
             var employees = new List<Employee>
             {
@@ -188,7 +186,7 @@ namespace Phase2Task1
                 Console.WriteLine("================================\n");
             }
 
-
+            */
             #endregion
 
             #region
