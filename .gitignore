@@ -1,0 +1,40 @@
+## Ignore Visual Studio temporary files
+.vs/
+
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## NuGet packages
+*.nupkg
+packages/
+
+## Entity Framework migrations snapshot (optional)
+*.db
+*.mdf
+*.ldf
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Others
+*.cache
+*.tmp
