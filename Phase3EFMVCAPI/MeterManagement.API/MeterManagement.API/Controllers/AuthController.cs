@@ -27,19 +27,23 @@ namespace MeterManagement.API.Controllers
 
             return Ok("User created successfully");
         }
+
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginDto dto)
         {
             var token = await _authService.Login(dto);
 
             if (token == null)
-                return Unauthorized("Invalid email or password");
-
+                return Unauthorized(new
+                {
+                    message = "Invalid email or password"
+                });
             return Ok(new
             {
                 token = token
             });
         }
+
         [Authorize(Roles = Roles.Admin)]
         [HttpPost("ChangeRole")]
         public async Task<IActionResult> ChangeRole(ChangeRoleDto dto)
@@ -61,6 +65,36 @@ namespace MeterManagement.API.Controllers
             var users = await _authService.GetAllUsers();
             return Ok(users);
         }
-
     }
 }
+/*
+
+[HttpPost("refreshToken")]
+public async Task<IActionResult> refreshToken()
+{
+    var refreshToken = Request.Cookies["refreshToken"];
+    var refreshTokenResult = await _jwtService.refreshToken(refreshToken);
+
+    setRefreshTokenInCookie(new RefreshTokenModel
+    {
+        Token = refreshTokenResult.refreshToken,
+        Expiration = refreshTokenResult.refreshTokenExpiration
+    });
+
+    return Ok(refreshTokenResult);
+}
+
+
+        private void setRefreshTokenInCookie(RefreshTokenModel refreshToken)
+{
+    if (refreshToken != null)
+    {
+        var cookieOptions = new CookieOptions
+        {
+            HttpOnly = true,
+            Expires = refreshToken.Expiration.ToLocalTime(),
+        };
+        Response.Cookies.Append("refreshToken", refreshToken.Token, cookieOptions);
+    }
+
+*/

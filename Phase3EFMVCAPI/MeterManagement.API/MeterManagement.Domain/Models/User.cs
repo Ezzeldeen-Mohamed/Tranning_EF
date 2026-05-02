@@ -9,5 +9,7 @@ namespace MeterManagement.API.Models
         [MaxLength(50)]
         [Display(Name = "Full Name")]
         public string FullName { get; set; } = string.Empty;
+
+        //public List<RefreshTokenModel> RefreshTokens { get; set; } = new();
     }
 }

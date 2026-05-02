@@ -1,0 +1,37 @@
+﻿@model List<MeterViewModel>
+
+<h2>All Meters</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Serial</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var meter in Model)
+        {
+            <tr>
+                <td>@meter.Id</td>
+                <td>@meter.SerialNumber</td>
+                <td>
+                    <span class="badge @(meter.Status == "Installed" ? "bg-success" : meter.Status == "Assigned" ? "bg-warning text-dark" : "bg-info text-dark")" style="font-size: 0.8rem;">
+                        @meter.Status
+                    </span>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@meter.Id" class="btn btn-sm btn-info text-white">
+                        <i class="fas fa-eye"></i> View Details
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

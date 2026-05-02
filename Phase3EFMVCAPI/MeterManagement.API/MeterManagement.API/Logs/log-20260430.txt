@@ -1,0 +1,55 @@
+2026-04-30 23:49:38.698 +03:00 [INF] Handling request: GET /api/Meters
+2026-04-30 23:49:39.092 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:49:39.117 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:49:39.804 +03:00 [INF] Finished handling request with status code: 200
+2026-04-30 23:49:42.446 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:49:43.970 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:49:54.049 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:49:54.052 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:50:14.065 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:50:14.074 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:50:51.039 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-04-30 23:50:51.201 +03:00 [WRN] Login attempt failed: User with email string not found
+2026-04-30 23:50:51.208 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: Invalid email or password
+   at MeterManagement.Application.Services.Services.AuthService.Login(LoginDto dto) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\AuthService.cs:line 72
+   at MeterManagement.API.Controllers.AuthController.Login(LoginDto dto) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\AuthController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 11
+2026-04-30 23:50:51.355 +03:00 [INF] Finished handling request with status code: 500
+2026-04-30 23:50:54.097 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:50:54.101 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:51:54.132 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:51:54.144 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:52:02.752 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-04-30 23:52:03.046 +03:00 [WRN] Login attempt failed: Invalid password for user with email ezzm@gmail.com
+2026-04-30 23:52:03.052 +03:00 [INF] Finished handling request with status code: 401
+2026-04-30 23:52:54.173 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:52:54.185 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:52:54.430 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-04-30 23:52:54.888 +03:00 [INF] User with email ezzm@gmail.com logged in successfully
+2026-04-30 23:52:54.955 +03:00 [INF] Finished handling request with status code: 200
+2026-04-30 23:53:54.256 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:53:54.260 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:54:54.291 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:54:54.300 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:55:54.371 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:55:54.374 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:56:54.412 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:56:54.415 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:57:54.443 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:57:54.495 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:58:54.540 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:58:54.582 +03:00 [INF] Finished handling request with status code: 404
+2026-04-30 23:59:54.614 +03:00 [INF] Handling request: POST /api/events/raw
+2026-04-30 23:59:54.623 +03:00 [INF] Finished handling request with status code: 404

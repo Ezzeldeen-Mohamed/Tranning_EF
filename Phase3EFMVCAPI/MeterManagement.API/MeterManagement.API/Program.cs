@@ -1,4 +1,6 @@
+using company_smart_charging_system.Middlewares;
 using MeterManagement.API.Models;
+using MeterManagement.Application.Services;
 using MeterManagement.Application.Services.IService;
 using MeterManagement.Application.Services.Services;
 using MeterManagement.Domain.IRepo;
@@ -9,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using OfficeOpenXml;
+using Serilog;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,12 +33,23 @@ builder.Services.AddIdentity<User, IdentityRole>()
     .AddDefaultTokenProviders();
 
 
+
+builder.Host.UseSerilog((context, services, configuration) =>
+{
+    configuration
+        .ReadFrom.Configuration(context.Configuration)
+        .ReadFrom.Services(services)
+        .Enrich.FromLogContext();
+});
+
+
 //Dependances:-
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IMeterRepository, MeterRepository>();
 builder.Services.AddScoped<IMeterService, MeterService>();
-
+builder.Services.AddMemoryCache();
+builder.Services.AddScoped<ILocalizationService, LocalizationService>();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -106,6 +120,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+
+
+app.UseMiddleware<LoggingMiddleware>();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseAuthentication();
 app.UseAuthorization();

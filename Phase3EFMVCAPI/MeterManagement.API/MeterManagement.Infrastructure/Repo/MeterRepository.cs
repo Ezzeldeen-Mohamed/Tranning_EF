@@ -1,4 +1,5 @@
 ﻿using MeterManagement.API.Models;
+using MeterManagement.Domain.Enums;
 using MeterManagement.Domain.IRepo;
 using MeterManagement.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +21,19 @@ namespace MeterManagement.Infrastructure.Repo
                 .Where(m => !m.IsDeleted)
                 .ToListAsync();
         }
+        public async Task<List<Meter>> GetByUserId(string userId)
+        {
+            return await _context.Meters
+                .Where(m => m.UserId == userId && !m.IsDeleted)
+                .ToListAsync();
+        }
 
+        public async Task<List<Meter>> GetByStatus(MeterStatus status)
+        {
+            return await _context.Meters
+                .Where(m => m.Status == status)
+                .ToListAsync();
+        }
         public async Task<Meter?> GetById(int id)
         {
             return await _context.Meters

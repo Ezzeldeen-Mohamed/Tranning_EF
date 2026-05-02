@@ -8,6 +8,10 @@
     {
         public List<MeterDto> Meters { get; set; }
     }
+    public class InstallMeterDto
+    {
+        public int MeterId { get; set; }
+    }
     public class GetMeterDto
     {
         public int Id { get; set; }
@@ -21,5 +25,10 @@
         public int SuccessCount { get; set; }
         public int FailedCount { get; set; }
         public List<string> Errors { get; set; } = new();
+    }
+    public class AssignMeterDto
+    {
+        public int MeterId { get; set; }
+        public string Email { get; set; }
     }
 }

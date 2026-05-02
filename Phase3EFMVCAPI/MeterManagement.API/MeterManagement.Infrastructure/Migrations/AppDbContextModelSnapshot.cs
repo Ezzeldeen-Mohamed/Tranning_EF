@@ -286,6 +286,46 @@ namespace MeterManagement.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("MeterManagement.API.Models.User", b =>
+                {
+                    b.OwnsMany("MeterManagement.Domain.Models.RefreshTokenModel", "RefreshTokens", b1 =>
+                        {
+                            b1.Property<string>("UserId")
+                                .HasColumnType("nvarchar(450)");
+
+                            b1.Property<int>("Id")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("int");
+
+                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b1.Property<int>("Id"));
+
+                            b1.Property<DateTime>("Expiration")
+                                .HasColumnType("datetime2");
+
+                            b1.Property<string>("Token")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b1.Property<DateTime>("createdOn")
+                                .HasColumnType("datetime2");
+
+                            b1.Property<bool>("isNew")
+                                .HasColumnType("bit");
+
+                            b1.Property<DateTime?>("revokedOn")
+                                .HasColumnType("datetime2");
+
+                            b1.HasKey("UserId", "Id");
+
+                            b1.ToTable("RefreshTokenModel");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UserId");
+                        });
+
+                    b.Navigation("RefreshTokens");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
