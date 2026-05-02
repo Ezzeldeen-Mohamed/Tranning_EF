@@ -12,30 +12,82 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MeterViewMangement</a>
+                <!-- اسم المشروع يوجه للصفحة الرئيسية -->
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-bolt text-warning"></i> MeterViewMangement
+                </a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <!-- الجزء الأيسر: لينكات الصفحات حسب الصلاحية -->
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Login">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Meter" asp-action="GetAll">All Meters</a>
-                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark fw-bold" asp-controller="Admin" asp-action="Dashboard">
+                                        <i class="fas fa-user-shield"></i> Admin Control
+                                    </a>
+                                </li>
+                            }
+                            else if (User.IsInRole("Agent"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark fw-bold" asp-controller="Agent" asp-action="Dashboard">
+                                        <i class="fas fa-tachometer-alt"></i> Agent Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Agent" asp-action="MyMeters">
+                                        <i class="fas fa-list"></i> My Meters
+                                    </a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                        }
+                    </ul>
+
+                    <!-- الجزء الأيمن: معلومات المستخدم / تسجيل الدخول -->
+                    <ul class="navbar-nav">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item d-flex align-items-center">
+                                <span class="nav-link text-primary fw-bold me-2">
+                                    <i class="fas fa-user-circle"></i> Hello, @User.Identity.Name!
+                                </span>
+                            </li>
+                            <li class="nav-item">
+                                <form asp-controller="Auth" asp-action="Logout" method="post" class="form-inline">
+                                    <button type="submit" class="btn btn-outline-danger btn-sm mt-1">
+                                        <i class="fas fa-sign-out-alt"></i> Logout
+                                    </button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-primary text-white px-4 mx-2 shadow-sm" asp-controller="Auth" asp-action="Login">
+                                    <i class="fas fa-sign-in-alt"></i> Login
+                                </a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

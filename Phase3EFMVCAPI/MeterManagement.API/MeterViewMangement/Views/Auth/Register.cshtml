@@ -1,61 +1,149 @@
 ﻿@model RegisterViewModel
 
-<div asp-validation-summary="All" class="text-danger"></div>
-<section class="vh-100" style="background-color: #eee;">
-    <div class="container h-100">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-lg-12 col-xl-11">
-                <div class="card text-black" style="border-radius: 25px;">
-                    <div class="card-body p-md-5">
-                        <div class="row justify-content-center">
-                            <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+@{
+    ViewData["Title"] = "Create Account";
+}
 
-                                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+<style>
+    body {
+        background-color: #f4f7f6;
+    }
 
-                                <form asp-action="RegisterFun" method="post" class="mx-1 mx-md-4">
+    .card-registration {
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        border: none;
+    }
 
-                                    <div class="d-flex flex-row align-items-center mb-4">
-                                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
-                                        <div data-mdb-input-init class="form-outline flex-fill mb-0">
-                                            <input asp-for="FullName" type="text" id="form3Example1c" class="form-control" />
-                                            <label class="form-label" for="form3Example1c">Your Name</label>
+    .reg-header {
+        color: #2c3e50;
+        font-weight: 800;
+        letter-spacing: -1px;
+    }
+
+    .input-group-text {
+        background-color: transparent;
+        border-right: none;
+        color: #2c3e50;
+    }
+
+    .form-control {
+        border-left: none;
+        padding-left: 0;
+    }
+
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #dee2e6;
+        }
+
+    .btn-register {
+        background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+        .btn-register:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            color: #fff;
+        }
+
+    .side-image-container {
+        background: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc51?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .side-overlay {
+        background: rgba(44, 62, 80, 0.7);
+        padding: 30px;
+        border-radius: 15px;
+        backdrop-filter: blur(8px);
+    }
+</style>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-12 col-xl-10">
+                <div class="card card-registration">
+                    <div class="card-body p-0">
+                        <div class="row g-0">
+                            <!-- الجزء الأيسر: الفورم -->
+                            <div class="col-md-12 col-lg-6 p-5 order-2 order-lg-1">
+                                <h2 class="reg-header mb-4">Join the Network</h2>
+                                <p class="text-muted mb-5">Create your agent account to start managing smart meters efficiently.</p>
+
+                                <form asp-action="RegisterFun" method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger small mb-3"></div>
+
+                                    <!-- Full Name -->
+                                    <div class="mb-4">
+                                        <label class="form-label fw-bold small">FULL NAME</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text border-2"><i class="fas fa-user"></i></span>
+                                            <input asp-for="FullName" type="text" class="form-control form-control-lg border-2" placeholder="Ezzeldeen Mohamed" />
                                         </div>
+                                        <span asp-validation-for="FullName" class="text-danger small"></span>
                                     </div>
 
-                                    <div class="d-flex flex-row align-items-center mb-4">
-                                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
-                                        <div data-mdb-input-init class="form-outline flex-fill mb-0">
-                                            <input asp-for="Email" type="email" id="form3Example3c" class="form-control" />
-                                            <label class="form-label" for="form3Example3c">Your Email</label>
+                                    <!-- Email -->
+                                    <div class="mb-4">
+                                        <label class="form-label fw-bold small">EMAIL ADDRESS</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text border-2"><i class="fas fa-envelope"></i></span>
+                                            <input asp-for="Email" type="email" class="form-control form-control-lg border-2" placeholder="name@example.com" />
                                         </div>
+                                        <span asp-validation-for="Email" class="text-danger small"></span>
                                     </div>
 
-                                    <div class="d-flex flex-row align-items-center mb-4">
-                                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
-                                        <div data-mdb-input-init class="form-outline flex-fill mb-0">
-                                            <input asp-for="Password" type="password" id="form3Example4c" class="form-control" />
-                                            <label class="form-label" for="form3Example4c">Password</label>
+                                    <!-- Password -->
+                                    <div class="mb-4">
+                                        <label class="form-label fw-bold small">PASSWORD</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text border-2"><i class="fas fa-lock"></i></span>
+                                            <input asp-for="Password" type="password" class="form-control form-control-lg border-2" placeholder="••••••••" />
                                         </div>
+                                        <span asp-validation-for="Password" class="text-danger small"></span>
                                     </div>
-                                    <div class="form-check d-flex justify-content-center mb-5">
-                                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
-                                        <label class="form-check-label" for="form2Example3">
-                                            I agree all statements in <a href="#!">Terms of service</a>
+
+                                    <div class="form-check mb-4">
+                                        <input class="form-check-input" type="checkbox" id="terms" required />
+                                        <label class="form-check-label small text-muted" for="terms">
+                                            I agree to the <a href="#" class="text-primary decoration-none">System Security Policies</a>
                                         </label>
                                     </div>
 
-                                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Register</button>
+                                    <div class="d-grid gap-2">
+                                        <button type="submit" class="btn btn-register btn-lg">
+                                            <i class="fas fa-user-plus me-2"></i> Create Account
+                                        </button>
                                     </div>
 
+                                    <p class="text-center mt-4 text-muted small">
+                                        Already have an account? <a asp-action="Login" class="text-primary fw-bold">Sign In</a>
+                                    </p>
                                 </form>
-
                             </div>
-                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
 
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
-                                     class="img-fluid" alt="Sample image">
-
+                            <div class="col-lg-6 d-none d-lg-flex side-image-container order-1 order-lg-2">
+                                <div class="side-overlay">
+                                    <i class="fas fa-database fa-3x mb-3 text-info"></i>
+                                    <h3 class="fw-bold">Data-Driven Insights</h3>
+                                    <p class="mb-0">Access real-time energy consumption data and manage meter infrastructure from a single dashboard.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

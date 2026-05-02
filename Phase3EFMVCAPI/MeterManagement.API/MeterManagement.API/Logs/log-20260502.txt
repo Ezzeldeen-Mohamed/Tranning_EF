@@ -617,3 +617,86 @@ MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
 2026-05-02 17:05:07.154 +03:00 [INF] Finished handling request with status code: 200
 2026-05-02 17:05:09.589 +03:00 [INF] Handling request: GET /api/Meters/20
 2026-05-02 17:05:09.601 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:02:34.961 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 22:02:35.613 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-02 22:02:35.663 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:02:35.776 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:02:35.982 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:05:46.324 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:05:46.346 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:05:49.972 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-02 22:05:50.075 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:05:51.734 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:05:51.739 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:06:00.597 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:06:00.613 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:06:08.194 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:06:08.228 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:08:13.434 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:08:13.461 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:08:24.125 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:08:24.153 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:08:30.763 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:08:30.826 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:08:35.371 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-02 22:08:35.389 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:08:38.187 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:08:38.214 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:46:52.254 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-02 22:46:52.262 +03:00 [INF] Finished handling request with status code: 401
+2026-05-02 22:46:52.276 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:46:52.280 +03:00 [INF] Finished handling request with status code: 401
+2026-05-02 22:46:57.606 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 22:46:57.974 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-02 22:46:57.977 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:46:57.990 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:46:58.006 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:47:01.014 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:47:01.023 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:47:02.165 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-02 22:47:02.172 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:47:04.758 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 22:47:04.774 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 22:50:24.165 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 22:50:24.405 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-02 22:50:24.412 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:03:48.533 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:03:49.824 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-02 23:03:49.887 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:04:48.467 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:04:48.930 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-02 23:04:48.935 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:17:25.172 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:17:25.585 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-02 23:17:25.747 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:21:00.552 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:21:01.879 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-02 23:21:01.936 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:22:25.742 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:22:26.190 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-02 23:22:26.196 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:36:01.994 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:36:02.320 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-02 23:36:02.325 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:36:34.843 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:36:35.134 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-02 23:36:35.137 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:36:44.427 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 23:36:44.554 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:37:06.129 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-02 23:37:06.162 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:40:36.688 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:40:36.946 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-02 23:40:36.953 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:44:55.928 +03:00 [INF] Handling request: POST /api/Auth/register
+2026-05-02 23:44:56.385 +03:00 [INF] User with email basmala@gmail.com registered successfully
+2026-05-02 23:44:56.608 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:45:21.518 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:45:21.705 +03:00 [INF] User with email basmala@gmail.com logged in successfully
+2026-05-02 23:45:21.707 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:47:49.487 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:47:49.710 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-02 23:47:49.713 +03:00 [INF] Finished handling request with status code: 200
+2026-05-02 23:48:10.546 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-02 23:48:10.745 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-02 23:48:10.750 +03:00 [INF] Finished handling request with status code: 200

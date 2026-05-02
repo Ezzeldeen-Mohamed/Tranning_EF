@@ -65,8 +65,21 @@ namespace MeterManagement.API.Controllers
             var users = await _authService.GetAllUsers();
             return Ok(users);
         }
+
+        [Authorize(Roles = Roles.Admin)]
+        [HttpGet("user/{email}")]
+        public async Task<IActionResult> GetByEmail(string email)
+        {
+            var user = await _authService.GetByEmail(email);
+            return Ok(user);
+        }
+
+
     }
 }
+
+
+
 /*
 
 [HttpPost("refreshToken")]

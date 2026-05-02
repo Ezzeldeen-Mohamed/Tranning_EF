@@ -1,5 +1,7 @@
 ﻿using MeterViewMangement.Helpers;
 using MeterViewMangement.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -18,6 +20,11 @@ namespace MeterViewMangement.Controllers
 
         public IActionResult Index()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                if (User.IsInRole("Admin")) return RedirectToAction("Dashboard", "Admin");
+                if (User.IsInRole("Agent")) return RedirectToAction("Dashboard", "Agent");
+            }
             return View();
         }
 
@@ -26,7 +33,6 @@ namespace MeterViewMangement.Controllers
         {
             return View("Login");
         }
-
 
         [HttpPost]
         public async Task<IActionResult> LoginFun(LoginViewModel model)
@@ -40,32 +46,48 @@ namespace MeterViewMangement.Controllers
                 "application/json"
             );
 
+            // 1. نكلم الـ API الأول عشان نأخد التوكن
             var response = await _httpClient.PostAsync("https://localhost:7252/api/Auth/login", content);
             var result = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
             {
-                ModelState.AddModelError("", "Login failed");
+                ModelState.AddModelError("", "Login failed: Email or Password incorrect");
                 return View("Login", model);
             }
 
+            // 2. نفك التوكن ونطلع البيانات منه
             var tokenObj = JsonSerializer.Deserialize<JsonElement>(result);
             var token = tokenObj.GetProperty("token").GetString();
 
+            // حفظ التوكن في الـ Session أو الـ Cookie حسب طريقتك
             TokenStorage.Save(HttpContext, token);
 
             var handler = new JwtSecurityTokenHandler();
             var jwtToken = handler.ReadJwtToken(token);
 
-            var roles = jwtToken.Claims.Where(c => c.Type == ClaimTypes.Role || c.Type == "role").Select(c => c.Value).ToList();
+            // سحب الـ Claims من التوكن الحقيقي
+            var claims = jwtToken.Claims.ToList();
+            // الـ Claims دي فيها الـ Name والـ Roles والـ ID اللي الـ API بعتتهم
+
+            // 3. تفعيل الـ Cookie Authentication في الـ MVC
+            // دي الخطوة اللي هتخلي [Authorize] تشتغل
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+
+            // 4. التوجيه حسب الـ Role
+            var roles = claims.Where(c => c.Type == ClaimTypes.Role || c.Type == "role")
+                              .Select(c => c.Value).ToList();
 
             if (roles.Contains("Admin"))
             {
-                return RedirectToAction("GetAll", "Meter");
+                return RedirectToAction("Dashboard", "Admin");
             }
             else if (roles.Contains("Agent"))
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Dashboard", "Agent");
             }
 
             return RedirectToAction("Index", "Home");
@@ -123,6 +145,18 @@ namespace MeterViewMangement.Controllers
             }
 
             return RedirectToAction("Login");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            // 1. مسح الـ Cookie بتاع الـ MVC
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            // 2. مسح الـ Token من الـ Session/Storage
+            TokenStorage.Clear(HttpContext);
+
+            return RedirectToAction("Login", "Auth");
         }
     }
 }

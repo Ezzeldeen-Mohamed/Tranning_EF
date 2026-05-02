@@ -2,7 +2,124 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #2c3e50 0%, #000000 100%);
+        color: white;
+        padding: 100px 0;
+        border-radius: 0 0 50px 50px;
+        margin-top: -20px;
+    }
+
+    .feature-card {
+        border: none;
+        border-radius: 15px;
+        transition: 0.3s;
+        background: #fff;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+
+    .icon-box {
+        width: 70px;
+        height: 70px;
+        background: #e3f2fd;
+        color: #0d6efd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        font-size: 1.5rem;
+    }
+
+    .stats-section {
+        margin-top: -50px;
+    }
+
+    .stat-item {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        text-align: center;
+    }
+</style>
+
+<!-- Hero Section -->
+<div class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-3 fw-bold mb-4">Smart Metering <span class="text-primary">Simplified</span></h1>
+        <p class="lead mb-5 px-md-5">The next generation of electricity management. Monitor, analyze, and control your energy network with real-time data and advanced analytics.</p>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                <a asp-controller="Auth" asp-action="Login" class="btn btn-primary btn-lg px-5 gap-3 shadow">Get Started</a>
+                <a href="#features" class="btn btn-outline-light btn-lg px-5">Learn More</a>
+            </div>
+        }
+        else
+        {
+            <a asp-controller="@(User.IsInRole("Admin") ? "Admin" : "Agent")" asp-action="Dashboard" class="btn btn-primary btn-lg px-5 shadow">Go to My Dashboard</a>
+        }
+    </div>
+</div>
+
+<!-- Features Section -->
+<div id="features" class="container py-5 mt-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Why Choose MeterView?</h2>
+        <div class="bg-primary mx-auto" style="width: 60px; height: 4px; border-radius: 2px;"></div>
+    </div>
+
+    <div class="row g-4">
+        <!-- Feature 1 -->
+        <div class="col-md-4 text-center">
+            <div class="card feature-card p-4 h-100">
+                <div class="icon-box">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h4 class="fw-bold">Real-time Tracking</h4>
+                <p class="text-muted">Monitor energy consumption every second with high-precision digital integration.</p>
+            </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-md-4 text-center">
+            <div class="card feature-card p-4 h-100">
+                <div class="icon-box">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h4 class="fw-bold">Secure Access</h4>
+                <p class="text-muted">Enterprise-grade security ensuring your infrastructure data is always protected.</p>
+            </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-md-4 text-center">
+            <div class="card feature-card p-4 h-100">
+                <div class="icon-box">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h4 class="fw-bold">Automated Billing</h4>
+                <p class="text-muted">Seamlessly integrate with billing systems for accurate and transparent invoicing.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Extra Section: Call to Action -->
+<div class="container py-5">
+    <div class="bg-light p-5 border-radius-20 text-center shadow-sm" style="border-radius: 30px;">
+        <h3 class="fw-bold">Ready to optimize your energy network?</h3>
+        <p class="text-muted mb-4">Join hundreds of agents managing thousands of smart meters across the country.</p>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Auth" asp-action="Register" class="btn btn-dark btn-lg px-4">Contact for Registration</a>
+        }
+    </div>
 </div>

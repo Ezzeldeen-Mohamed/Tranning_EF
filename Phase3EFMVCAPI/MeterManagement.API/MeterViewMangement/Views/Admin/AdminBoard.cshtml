@@ -1,0 +1,57 @@
+﻿<div class="container py-5">
+    <h2 class="mb-4 text-primary"><i class="fas fa-user-shield"></i> Admin Control Panel</h2>
+    <hr />
+
+    <div class="row g-4">
+        <!-- إدارة العدادات -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="fas fa-tachometer-alt fa-3x text-info mb-3"></i>
+                    <h5 class="card-title">Meters Management</h5>
+                    <p class="card-text text-muted">View, Edit, and Delete all meters in the system.</p>
+                    <a asp-controller="Meter" asp-action="GetAll" class="btn btn-info w-100 text-white">Go to Meters</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- إضافة عداد جديد -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0 text-white bg-dark">
+                <div class="card-body text-center">
+                    <i class="fas fa-plus-circle fa-3x mb-3"></i>
+                    <h5 class="card-title">Add New Meter</h5>
+                    <p class="card-text">Register a single meter or upload Excel file.</p>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-outline-light btn-sm">Single Entry</button>
+                        <button class="btn btn-outline-light btn-sm">Import Excel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- تخصيص عداد لموظف -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="fas fa-user-tag fa-3x text-warning mb-3"></i>
+                    <h5 class="card-title">Assign Meter</h5>
+                    <p class="card-text text-muted">Assign a meter to an agent using their email.</p>
+                    <button class="btn btn-warning w-100 text-dark">Assign Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- إدارة المستخدمين -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Users List</h5>
+                    <p class="card-text text-muted">View all users and change their roles (Admin/Agent).</p>
+                    <a asp-controller="Auth" asp-action="Users" class="btn btn-primary w-100">Manage Users</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
