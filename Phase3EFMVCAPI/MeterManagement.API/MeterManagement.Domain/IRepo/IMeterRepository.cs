@@ -1,4 +1,5 @@
 ﻿using MeterManagement.API.Models;
+using MeterManagement.Domain.Enums;
 
 namespace MeterManagement.Domain.IRepo
 {
@@ -11,6 +12,8 @@ namespace MeterManagement.Domain.IRepo
         Task Add(Meter meter);
         Task AddRange(List<Meter> meters);
         Task Update(Meter meter);
+        Task<List<Meter>> GetByUserId(string userId);
+        Task<List<Meter>> GetByStatus(MeterStatus status);
         Task Delete(Meter meter);
         Task SoftDelete(Meter meter);
         Task Save();

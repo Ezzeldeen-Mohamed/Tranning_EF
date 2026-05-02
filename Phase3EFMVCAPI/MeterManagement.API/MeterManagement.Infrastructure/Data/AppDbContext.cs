@@ -22,6 +22,8 @@ namespace MeterManagement.Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+
             builder.Entity<Meter>(entity =>
             {
                 entity.Property(m => m.Status)
@@ -51,5 +53,6 @@ namespace MeterManagement.Infrastructure.Data
         }
 
         public DbSet<Meter> Meters { get; set; }
+
     }
 }
