@@ -1,0 +1,591 @@
+2026-05-05 00:03:26.177 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:03:26.285 +03:00 [INF] Finished handling request with status code: 401
+2026-05-05 00:03:32.209 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:03:32.584 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-05 00:03:32.614 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:03:34.755 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:03:34.880 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:03:34.885 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:03:40.331 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:03:40.362 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:03:40.363 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:03:42.282 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:03:42.300 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:03:42.301 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:15.949 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:04:15.965 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:04:15.968 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:18.012 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:04:18.023 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:04:18.026 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:29.258 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:04:29.270 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:04:29.271 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:31.636 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:04:31.661 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:04:31.662 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:38.828 +03:00 [INF] Handling request: POST /api/Auth/ChangeRole
+2026-05-05 00:04:39.140 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:39.149 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:04:39.159 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:04:39.161 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:48.143 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:04:48.258 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-05 00:04:48.261 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:50.391 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:04:50.402 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:04:50.406 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:52.660 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:04:52.672 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:04:52.674 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:04:57.523 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:04:57.534 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:04:57.538 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:05:04.341 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:05:04.357 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:05:04.360 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:05:07.505 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:05:07.525 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:05:07.527 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:06:06.564 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:06:06.576 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:06:06.578 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:07:05.560 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:07:05.571 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:07:05.575 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:07:19.336 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:07:19.351 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:07:19.353 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:07:22.933 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:07:22.949 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 00:07:22.952 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:09:00.795 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:09:00.926 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:09:00.927 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:09:42.420 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:09:42.532 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-05 00:09:42.534 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:17:06.857 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 00:17:06.860 +03:00 [INF] Finished handling request with status code: 401
+2026-05-05 00:17:09.489 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:17:09.664 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-05 00:17:09.666 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:17:11.256 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:17:11.337 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 00:17:11.339 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 00:17:11.383 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:17:19.172 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-05 00:17:19.219 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:17:25.775 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:17:25.785 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:24:03.197 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:24:03.216 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:24:05.188 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:24:05.193 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:24:15.697 +03:00 [INF] Handling request: POST /api/Meters/assign-meter
+2026-05-05 00:24:15.757 +03:00 [INF] Meter 4 assigned to mohamed@gmail.com
+2026-05-05 00:24:15.759 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:24:15.768 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:24:15.774 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:24:24.612 +03:00 [INF] Handling request: POST /api/Meters/assign-meter
+2026-05-05 00:24:24.641 +03:00 [INF] Meter 2 assigned to mohamed@gmail.com
+2026-05-05 00:24:24.643 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:24:24.654 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:24:24.659 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:33:08.255 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:33:08.757 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:33:08.788 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:33:37.720 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:33:37.851 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:34:08.679 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:34:08.701 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:34:12.220 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:34:12.241 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:34:12.262 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:34:12.265 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:34:15.115 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:34:15.135 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:34:21.059 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:34:21.063 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:34:21.079 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:34:21.082 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:34:24.633 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:34:24.756 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:34:24.760 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:34:26.602 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:34:26.612 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:34:28.031 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:34:28.033 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:34:28.048 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:34:28.050 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:34:29.877 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:34:29.882 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:37:49.786 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:37:49.803 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:37:51.208 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:37:51.252 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:37:53.509 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:37:53.527 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:37:57.425 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:37:57.632 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:37:57.637 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:38:00.362 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:38:00.372 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:46:18.848 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:46:19.030 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:46:19.033 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:46:20.812 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:46:20.821 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:46:22.571 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:46:22.578 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:46:24.659 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:46:24.662 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:46:27.404 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:46:27.412 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:50:23.050 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:50:23.067 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:50:27.345 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:50:27.531 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-05 00:50:27.533 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:50:30.513 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:50:30.615 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 00:50:30.618 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 00:50:30.641 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:50:35.924 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-05 00:50:36.036 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:50:37.511 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:50:37.588 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:50:45.400 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:50:45.560 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:50:45.562 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:50:47.698 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:50:47.706 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:50:49.184 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:50:49.189 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:50:50.630 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:50:50.632 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:51:10.347 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:51:10.552 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:51:10.567 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:51:12.179 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:51:12.185 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:51:13.746 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:51:13.753 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:51:15.611 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:51:15.644 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:51:20.963 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-05 00:51:20.969 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:51:23.424 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-05 00:51:23.430 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:51:32.461 +03:00 [INF] Handling request: PUT /api/Meters/4
+2026-05-05 00:51:32.466 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:51:34.844 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 00:51:34.847 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 00:54:15.197 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:54:15.343 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:54:15.346 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:54:19.235 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:54:19.248 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:54:21.947 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-05 00:54:21.960 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:54:24.901 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:54:24.911 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:54:30.247 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:54:30.251 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:56:12.397 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:56:12.404 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:56:13.242 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:56:13.271 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:56:15.558 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:56:15.568 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:56:17.587 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:56:17.599 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:56:31.616 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:56:31.802 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:56:31.835 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:56:33.604 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:56:33.611 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:56:35.170 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:56:35.178 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:57:16.098 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:57:16.110 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:58:13.953 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 00:58:14.158 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 00:58:14.160 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:58:19.018 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 00:58:19.026 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:58:21.284 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 00:58:21.291 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 00:58:23.017 +03:00 [INF] Handling request: POST /api/Meters/install
+2026-05-05 00:58:23.176 +03:00 [INF] Meter installed 2
+2026-05-05 00:58:23.181 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:04:38.315 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:04:38.326 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:04:39.266 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:04:39.305 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:04:42.069 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:04:42.078 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:04:44.100 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:04:44.112 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:04:46.495 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:04:46.499 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:04:51.763 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-05 01:04:51.779 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:04:53.835 +03:00 [INF] Handling request: POST /api/Meters/install
+2026-05-05 01:04:53.859 +03:00 [INF] Meter installed 4
+2026-05-05 01:04:53.862 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:05:09.257 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-05 01:05:09.265 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:05:11.447 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:05:11.454 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:07:01.269 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:07:01.285 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:07:06.190 +03:00 [INF] Handling request: GET /api/Meters/5
+2026-05-05 01:07:06.208 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:07:07.990 +03:00 [INF] Handling request: POST /api/Meters/install
+2026-05-05 01:07:08.015 +03:00 [INF] Meter installed 5
+2026-05-05 01:07:08.018 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:07:08.037 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:07:08.047 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:07:16.140 +03:00 [INF] Handling request: GET /api/Meters/5
+2026-05-05 01:07:16.151 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:07:17.916 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:07:17.920 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:10:09.135 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:10:09.561 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:10:09.587 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:10:20.524 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:10:20.689 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:10:25.947 +03:00 [INF] Handling request: GET /api/Meters/10
+2026-05-05 01:10:25.959 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:10:25.979 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:10:25.982 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:10:30.399 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:10:30.522 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:10:30.524 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:10:32.093 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:10:32.101 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:10:34.594 +03:00 [INF] Handling request: GET /api/Meters/10
+2026-05-05 01:10:34.596 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:10:34.617 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:10:34.620 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:10:38.379 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:10:38.506 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:10:38.508 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:10:41.244 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:10:41.252 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:11:40.646 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:11:40.656 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:11:42.086 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:11:42.121 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:11:42.168 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:11:42.174 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:11:45.105 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:11:45.278 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:11:45.280 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:11:47.012 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:11:47.025 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:11:48.833 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:11:48.838 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:11:48.848 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:11:48.855 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:11:52.944 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:11:53.102 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:11:53.104 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:11:55.211 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:11:55.218 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:11:56.545 +03:00 [INF] Handling request: GET /api/Meters/10
+2026-05-05 01:11:56.552 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:11:56.562 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:11:56.567 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:14:00.680 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:14:00.804 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:14:00.807 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:14:02.750 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:14:02.766 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:14:09.912 +03:00 [INF] Handling request: GET /api/Meters/10
+2026-05-05 01:14:09.914 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:14:09.931 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:14:09.938 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:14:24.124 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:14:24.251 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:14:24.253 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:14:25.752 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:14:25.776 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:14:46.262 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:14:46.442 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:14:46.451 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:14:48.324 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:14:48.334 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:14:50.821 +03:00 [INF] Handling request: GET /api/Meters/5
+2026-05-05 01:14:50.825 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:14:50.846 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:14:50.854 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:16:59.402 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:16:59.654 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:16:59.686 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:17:01.052 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:17:01.061 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:17:12.390 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-05 01:17:12.392 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:17:12.413 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:17:12.423 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:20:07.316 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:20:07.328 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:20:08.872 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:20:08.876 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:20:09.669 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:20:09.674 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:20:11.359 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:20:11.362 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:20:11.401 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:20:11.404 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:20:14.743 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:20:14.939 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:20:14.941 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:20:16.383 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:20:16.391 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:20:17.766 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:20:17.769 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:20:17.784 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:20:17.786 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:20:20.868 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:20:21.034 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:20:21.035 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:20:22.072 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:20:22.083 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:21:30.770 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:21:30.901 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:21:30.902 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:21:35.667 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:21:35.678 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:21:37.233 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:21:37.237 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:21:37.259 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:21:37.262 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:23:21.760 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:23:21.930 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:23:21.933 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:23.505 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:23:23.526 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:25.332 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:23:25.335 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:23:25.359 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:23:25.381 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:23:28.937 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:23:29.169 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-05 01:23:29.205 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:30.734 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:23:30.872 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 01:23:30.883 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 01:23:30.914 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:35.110 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-05 01:23:35.135 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:37.085 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:23:37.098 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:41.648 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:23:41.661 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 01:23:41.662 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 01:23:41.669 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:50.336 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:23:50.348 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:57.361 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:23:57.486 +03:00 [INF] User with email mostafa@gmail.com logged in successfully
+2026-05-05 01:23:57.488 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:23:59.361 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:23:59.367 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:25:52.657 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:25:52.838 +03:00 [INF] User with email mostafa@gmail.com logged in successfully
+2026-05-05 01:25:52.935 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:25:54.557 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:25:54.566 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:26:00.006 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:26:00.184 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:26:00.187 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:26:01.449 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:26:01.454 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:26:03.104 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:26:03.106 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:26:03.122 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:26:03.126 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:27:53.323 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:27:53.328 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:27:54.382 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:27:54.387 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:29:49.451 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:29:49.454 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:29:49.475 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:29:49.479 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:01.709 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:33:01.915 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:33:01.942 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:03.899 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:03.908 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:05.446 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:05.467 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:07.811 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:07.815 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:08.494 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:08.499 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:08.696 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:08.700 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:08.872 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:08.879 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:09.060 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:09.064 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:10.409 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:10.415 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:10.682 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:10.689 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:10.855 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:10.861 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:11.056 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:11.060 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:11.255 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:11.259 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:33:12.238 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:33:12.245 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:35:32.895 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:35:33.108 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:35:33.110 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:35:36.114 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:35:36.117 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:35:37.947 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:35:37.951 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:35:39.426 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:35:39.430 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:35:40.349 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:35:40.360 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:38:07.357 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:38:07.462 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:38:07.464 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:38:08.747 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:38:08.754 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:38:10.570 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:38:10.575 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:38:11.720 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:38:11.728 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:38:26.195 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:38:26.205 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:38:27.547 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:38:27.551 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:38:28.547 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:38:28.552 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:40:03.305 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:40:03.422 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:40:03.424 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:40:04.517 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:40:04.523 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:40:09.377 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:40:09.381 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:40:13.502 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:40:13.505 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:40:44.358 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:40:44.403 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:40:45.116 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:40:45.130 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:40:46.916 +03:00 [INF] Handling request: GET /api/Meters/10
+2026-05-05 01:40:46.938 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:40:46.974 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:40:46.979 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:41:49.295 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:41:49.410 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:41:49.413 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:41:51.000 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:41:51.006 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:41:53.260 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:41:53.265 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:41:53.283 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:41:53.288 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:44:50.677 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:44:50.781 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:44:50.785 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:44:52.233 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:44:52.237 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:44:53.790 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-05 01:44:53.792 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:44:53.808 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:44:53.811 +03:00 [INF] Finished handling request with status code: 403
+2026-05-05 01:50:18.816 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:50:19.263 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:50:19.291 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:50:20.542 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:50:20.850 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:50:42.071 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:50:42.089 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:52:46.274 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:52:46.292 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:52:47.806 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:52:47.823 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:53:32.101 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:53:32.271 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-05 01:53:32.275 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:53:34.557 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:53:34.565 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:53:36.904 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-05 01:53:36.925 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:13.697 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:54:13.703 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:15.803 +03:00 [INF] Handling request: GET /api/Meters/10
+2026-05-05 01:54:15.816 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:17.692 +03:00 [INF] Handling request: POST /api/Meters/install
+2026-05-05 01:54:17.935 +03:00 [INF] Meter installed 10
+2026-05-05 01:54:17.940 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:17.953 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:54:17.958 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:21.845 +03:00 [INF] Handling request: GET /api/Meters/14
+2026-05-05 01:54:21.852 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:22.980 +03:00 [INF] Handling request: POST /api/Meters/install
+2026-05-05 01:54:22.992 +03:00 [INF] Meter installed 14
+2026-05-05 01:54:22.997 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:23.009 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:54:23.015 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:30.765 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:54:30.913 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-05 01:54:30.915 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:36.291 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 01:54:36.328 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 01:54:36.333 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:55.094 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:54:55.170 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 01:54:55.173 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 01:54:55.194 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:54:56.889 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-05 01:54:56.899 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:00.541 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:55:00.551 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:20.391 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 01:55:20.406 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 01:55:20.407 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:23.297 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 01:55:23.313 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 01:55:23.316 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:26.513 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 01:55:26.532 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 01:55:26.536 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:43.203 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 01:55:43.216 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 01:55:43.219 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:44.759 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 01:55:44.771 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 01:55:44.774 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:48.413 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:55:48.421 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:50.168 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-05 01:55:50.178 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:55:52.303 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:55:52.310 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:56:01.562 +03:00 [INF] Handling request: POST /api/Meters/assign-meter
+2026-05-05 01:56:01.611 +03:00 [INF] Meter 3 assigned to mostafa@gmail.com
+2026-05-05 01:56:01.616 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:56:01.624 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 01:56:01.633 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:56:10.592 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 01:56:10.695 +03:00 [INF] User with email mostafa@gmail.com logged in successfully
+2026-05-05 01:56:10.699 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:56:34.691 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:56:34.703 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:56:36.902 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-05 01:56:36.915 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 01:56:39.232 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 01:56:39.238 +03:00 [INF] Finished handling request with status code: 200

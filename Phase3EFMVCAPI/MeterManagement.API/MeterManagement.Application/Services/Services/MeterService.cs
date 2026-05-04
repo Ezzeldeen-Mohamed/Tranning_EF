@@ -6,6 +6,7 @@ using MeterManagement.Domain.Enums;
 using MeterManagement.Domain.IRepo;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using OfficeOpenXml;
@@ -28,21 +29,47 @@ namespace MeterManagement.Application.Services.Services
             _cache = cache;
         }
 
-        public async Task<List<GetMeterDto>> GetAll()
+        public async Task<PagedResult<GetMeterDto>> GetAll(MeterQueryParameters query)
         {
-            if (_cache.TryGetValue("meters", out List<GetMeterDto> cached))
-                return cached;
-            var meters = await _repo.GetAll();
+            // 1. هنجيب الـ IQueryable من الـ Repo عشان ما ننفذش الكويري دلوقتي
+            var queryable = _repo.GetQueryable();
 
-            var result = meters.Select(m => new GetMeterDto
+            // 2. تطبيق الـ Filtering
+            if (!string.IsNullOrEmpty(query.SerialNumber))
             {
-                Id = m.Id,
-                SerialNumber = m.SerialNumber,
-                Status = m.Status.ToString()
-            }).ToList();
+                queryable = queryable.Where(m => m.SerialNumber.Contains(query.SerialNumber));
+            }
 
-            _cache.Set("meters", result, TimeSpan.FromMinutes(5));
-            return result;
+            if (!string.IsNullOrEmpty(query.Status))
+            {
+                if (Enum.TryParse<MeterStatus>(query.Status, out var statusEnum))
+                {
+                    queryable = queryable.Where(m => m.Status == statusEnum);
+                }
+            }
+
+            // 3. حساب العدد الكلي قبل الـ Pagination
+            var totalCount = await queryable.CountAsync();
+
+            // 4. تطبيق الـ Pagination (Skip & Take)
+            var meters = await queryable
+                .Skip((query.PageNumber - 1) * query.PageSize)
+                .Take(query.PageSize)
+                .Select(m => new GetMeterDto
+                {
+                    Id = m.Id,
+                    SerialNumber = m.SerialNumber,
+                    Status = m.Status.ToString()
+                })
+                .ToListAsync();
+
+            return new PagedResult<GetMeterDto>
+            {
+                Items = meters,
+                TotalCount = totalCount,
+                PageNumber = query.PageNumber,
+                TotalPages = (int)Math.Ceiling(totalCount / (double)query.PageSize)
+            };
         }
         public async Task InstallMeter(int meterId, string userId)
         {
@@ -329,6 +356,15 @@ namespace MeterManagement.Application.Services.Services
             }
 
             await _repo.Delete(meter);
+            await _repo.Save();
+        }
+
+        public async Task Restore(int id)
+        {
+            var meter = await _repo.GetById(id);
+            if (meter == null) throw new BusinessException("Meter Not Found");
+
+            await _repo.Restore(meter);
             await _repo.Save();
         }
         public async Task SoftDelete(int id)

@@ -1,0 +1,101 @@
+﻿@using MeterViewMangement.Models;
+@model ChangeRoleViewModel;
+
+@{
+    ViewData["Title"] = "User Details - Manage Permissions";
+}
+<div class="container py-5 animate slideIn">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg border-0" style="border-radius: 20px; overflow: hidden;">
+                <!-- Header البروفايل -->
+                <div class="card-header bg-dark py-5 text-center position-relative">
+                    <div class="avatar-big shadow-sm">@Model.FullName[0]</div>
+                    <h3 class="text-white mt-3 mb-0">@Model.FullName</h3>
+                    <p class="text-white-50">@Model.Email</p>
+                </div>
+
+                <div class="card-body p-4 p-lg-5">
+                    <h5 class="fw-bold mb-4 text-center"><i class="fas fa-user-shield me-2 text-primary"></i>Manage Permissions</h5>
+
+                    <form asp-action="ChangeRole" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Email" />
+                        <input type="hidden" asp-for="FullName" />
+
+                        <div class="mb-4 bg-light p-3 rounded-3 border">
+                            <label class="form-label d-block text-muted small fw-bold text-uppercase">Current Role</label>
+                            <span class="badge @(Model.CurrentRole == "Admin" ? "bg-danger" : "bg-primary") px-3 py-2">
+                                @Model.CurrentRole
+                            </span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label text-muted small fw-bold text-uppercase">Assign New Role</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-white"><i class="fas fa-user-tag text-primary"></i></span>
+                                <select asp-for="NewRole" class="form-select form-select-lg shadow-none">
+                                    @foreach (var role in Model.AllRoles)
+                                    {
+                                        <option value="@role">@role</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-text mt-2 text-warning">
+                                <i class="fas fa-info-circle me-1"></i> Changing role will affect user permissions immediately.
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill shadow-sm hover-up">
+                                <i class="fas fa-save me-2"></i> Save Permissions
+                            </button>
+                            <a asp-action="Index" class="btn btn-link text-muted text-decoration-none">Cancel and Return</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .avatar-big {
+        width: 100px;
+        height: 100px;
+        background: white;
+        color: #212529;
+        font-size: 3rem;
+        font-weight: bold;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        border: 5px solid rgba(255,255,255,0.2);
+    }
+
+    .hover-up:hover {
+        transform: translateY(-3px);
+        transition: 0.3s;
+    }
+
+    @@keyframes slideIn {
+        from
+
+    {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    }
+
+    .animate.slideIn {
+        animation: slideIn 0.5s ease-out forwards;
+    }
+</style>

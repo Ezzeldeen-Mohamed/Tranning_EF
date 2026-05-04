@@ -20,12 +20,13 @@ namespace MeterManagement.API.Controllers
 
         [Authorize(Roles = Roles.Admin)]
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] MeterQueryParameters query)
         {
-            return Ok(await _service.GetAll());
+            var result = await _service.GetAll(query);
+            return Ok(result);
         }
 
-        [Authorize(Roles = Roles.Admin)]
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -34,11 +35,14 @@ namespace MeterManagement.API.Controllers
         }
 
         [Authorize(Roles = Roles.Admin)]
-        [HttpPost]
-        public async Task<IActionResult> Create(MeterDto dto)
+        [HttpPost("add-meter")]
+        public async Task<IActionResult> Create([FromBody] MeterDto dto) // تأكد من وجود [FromBody]
         {
+            if (dto == null || string.IsNullOrEmpty(dto.SerialNumber))
+                return BadRequest("Invalid data");
+
             await _service.Create(dto);
-            return Ok("Meter Created");
+            return Ok(new { message = "Meter Created Successfully" });
         }
         [Authorize(Roles = Roles.Admin)]
         [HttpPost("bulk")]
@@ -69,7 +73,6 @@ namespace MeterManagement.API.Controllers
         public async Task<IActionResult> ImportExcel(IFormFile file)
         {
             var result = await _service.ImportFromExcel(file);
-
             return Ok(result);
         }
 
@@ -82,21 +85,29 @@ namespace MeterManagement.API.Controllers
             return Ok("Updated");
         }
 
+
         [HttpDelete("{id}")]
         [Authorize(Roles = Roles.Admin)]
-
         public async Task<IActionResult> Delete(int id)
         {
             await _service.Delete(id);
             return Ok("Deleted");
         }
+
         [HttpDelete("Soft/{id}")]
         [Authorize(Roles = Roles.Admin)]
-
         public async Task<IActionResult> SoftDelete(int id)
         {
             await _service.SoftDelete(id);
             return Ok("Deleted");
+        }
+
+        [HttpPost("Restore/{id}")]
+        [Authorize(Roles = Roles.Admin)]
+        public async Task<IActionResult> Restore(int id)
+        {
+            await _service.Restore(id); // الميثود دي في السيرفيس بتخلي IsDeleted = false
+            return Ok("Meter Restored Successfully");
         }
 
         [Authorize(Roles = Roles.Admin)]

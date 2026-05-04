@@ -4,9 +4,40 @@
     <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col col-xl-10">
-                <div class="card" style="border-radius: 1rem; border: none; shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                <div class="card shadow-lg position-relative" style="border-radius: 1rem; border: none;">
+
+                    @* 🛠 إظهار الـ Dropdown فقط للـ Admin *@
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="position-absolute" style="top: 20px; right: 20px; z-index: 10;">
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-light btn-sm border shadow-sm dropdown-toggle rounded-pill px-3" data-bs-toggle="dropdown">
+                                    <i class="fas fa-cog me-1"></i> Actions
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 animate slideIn">
+                                    <li>
+                                        <a asp-action="Update" asp-route-id="@Model.Id" class="dropdown-item py-2 text-primary">
+                                            <i class="fas fa-edit me-2"></i> Edit Serial
+                                        </a>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <a asp-action="ConfirmSoftDelete" asp-route-id="@Model.Id" class="dropdown-item py-2 text-warning">
+                                            <i class="fas fa-archive me-2"></i> Move to Archive
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="ConfirmDelete" asp-route-id="@Model.Id" class="dropdown-item py-2 text-danger">
+                                            <i class="fas fa-trash-alt me-2"></i> Permanent Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    }
+
                     <div class="row g-0">
-                        <!-- صورة جمالية للمنتج أو الميتر -->
+                        <!-- Image Section -->
                         <div class="col-md-6 col-lg-5 d-none d-md-block">
                             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img2.webp"
                                  alt="Meter Details" class="img-fluid" style="border-radius: 1rem 0 0 1rem; height: 100%; object-fit: cover;" />
@@ -23,42 +54,59 @@
                                 <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Detailed Information for Unit #@Model.Id</h5>
 
                                 <div class="mb-4">
-                                    <p class="text-muted mb-1">Serial Number</p>
-                                    <h4 class="fw-bold">@Model.SerialNumber</h4>
+                                    <p class="text-muted mb-1 small uppercase fw-bold">Serial Number</p>
+                                    <h4 class="fw-bold text-primary">@Model.SerialNumber</h4>
                                 </div>
 
                                 <div class="mb-4">
-                                    <p class="text-muted mb-1">Current Status</p>
-
+                                    <p class="text-muted mb-1 small uppercase fw-bold">Current Status</p>
+                                    @* ... (شرط الـ Status يفضل زي ما هو لأنه للعرض فقط) ... *@
                                     @if (Model.Status?.ToString() == "Installed")
                                     {
-                                        <h4 class="text-success"><i class="fas fa-check-circle"></i> Installed & Operational</h4>
+                                        <h4 class="text-success"><i class="fas fa-check-circle me-2"></i>Installed & Operational</h4>
                                     }
                                     else if (Model.Status?.ToString() == "OnStock")
                                     {
-                                        <h4 class="text-info"><i class="fas fa-warehouse"></i> Available on Stock</h4>
+                                        <h4 class="text-info"><i class="fas fa-warehouse me-2"></i>Available on Stock</h4>
                                     }
                                     else if (Model.Status?.ToString() == "Assigned")
                                     {
-                                        <h4 class="text-warning"><i class="fas fa-user-tag"></i> Assigned to Agent</h4>
-                                    }
-                                    else
-                                    {
-                                        <h4 class="text-danger"><i class="fas fa-exclamation-triangle"></i> @Model.Status</h4>
+                                        <h4 class="text-warning"><i class="fas fa-user-tag me-2"></i>Assigned to Agent</h4>
                                     }
                                 </div>
 
-                                <hr />
+                                <hr class="my-4" />
 
-                                <div class="pt-1 mb-4">
-                                    <a asp-action="GetAll" class="btn btn-dark btn-lg btn-block">
-                                        <i class="fas fa-arrow-left"></i> Back to List
+                                <div class="d-flex gap-3">
+                                    @* 1. زرار العودة متاح للكل *@
+                                    <a href="javascript:void(0);" onclick="history.back();" class="btn btn-outline-secondary px-4">
+                                        <i class="fas fa-arrow-left me-1"></i> Back
                                     </a>
-                                    <button class="btn btn-info btn-lg btn-block" type="button">
-                                        <i class="fas fa-edit"></i> Edit Meter
-                                    </button>
-                                </div>
 
+                                    @* 2. زرار الـ Edit يظهر فقط للـ Admin *@
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-outline-primary px-4 shadow-sm">
+                                            <i class="fas fa-edit me-2"></i>Edit Meter
+                                        </a>
+                                    }
+
+                                    @* 3. زرار الـ Install يظهر فقط للـ Agent ولو العداد Assigned *@
+                                    @if (User.IsInRole("Agent") && Model.Status?.ToString() == "Assigned")
+                                    {
+                                        @* حددنا الأكشن والكنترولر هنا في الفورم مباشرة *@
+                                        <form asp-action="Install" asp-controller="Agent" method="post" class="d-inline">
+                                            @Html.AntiForgeryToken()
+
+                                                @* تأكد إن الـ name هنا هو meterId عشان يطابق الـ Controller *@
+                                                <input type="hidden" name="meterId" value="@Model.Id" />
+
+                                                <button type="submit" class="btn btn-success px-4 shadow-sm">
+                                                    <i class="fas fa-tools me-2"></i> Install This Meter
+                                                </button>
+                                            </form>
+                                     }
+                                </div>
                             </div>
                         </div>
                     </div>

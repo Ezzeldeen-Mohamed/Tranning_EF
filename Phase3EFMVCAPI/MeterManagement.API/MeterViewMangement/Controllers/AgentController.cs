@@ -1,6 +1,9 @@
-﻿using MeterViewMangement.Models;
+﻿using MeterViewMangement.Helpers;
+using MeterViewMangement.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
+using System.Text.Json;
 
 namespace MeterViewMangement.Controllers
 {
@@ -20,44 +23,67 @@ namespace MeterViewMangement.Controllers
             return View("AgentBoard");
         }
 
-        // عرض العدادات الخاصة بالموظف الحالي فقط
+        [HttpGet]
         public async Task<IActionResult> MyMeters()
         {
-            var client = _clientFactory.CreateClient("MyAPI");
-            // الـ API دي اللي أنت عاملها: api/Meters/my-meters
-            var response = await client.GetAsync("api/Meters/my-meters");
+            // 1. جلب التوكن
+            var token = TokenStorage.Get(HttpContext);
+            if (string.IsNullOrEmpty(token)) return RedirectToAction("Login", "Auth");
+
+            // 2. إعداد الـ HttpClient
+            using var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            // 3. نداء الـ API
+            var response = await client.GetAsync("https://localhost:7252/api/Meters/my-meters");
+
+            List<GetAssignedMetersViewModel> meters = new();
 
             if (response.IsSuccessStatusCode)
             {
-                var meters = await response.Content.ReadFromJsonAsync<List<MeterViewModel>>();
-                return View(meters);
+                var content = await response.Content.ReadAsStringAsync();
+                meters = JsonSerializer.Deserialize<List<GetAssignedMetersViewModel>>(content,
+                    new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Failed to load your meters.";
             }
 
-            return View(new List<MeterViewModel>());
+            // 4. عرض الـ View من المسار اللي حددناه
+            return View("~/Views/Agent/MyMeters.cshtml", meters);
         }
-
         // صفحة الـ Install (فورم بياخد بيانات العداد والعميل)
-        [HttpGet]
-        public IActionResult Install(int meterId)
-        {
-            var model = new InstallMeterViewModel { MeterId = meterId };
-            return View(model);
-        }
-
         [HttpPost]
-        public async Task<IActionResult> ConfirmInstall(InstallMeterViewModel model)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Install(int meterId)
         {
-            var client = _clientFactory.CreateClient("MyAPI");
-            var response = await client.PostAsJsonAsync("api/Meters/install", model);
+            var token = TokenStorage.Get(HttpContext);
+            if (string.IsNullOrEmpty(token)) return RedirectToAction("Login", "Auth");
+
+            using var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            // الـ API مستني InstallMeterDto فيه الـ MeterId
+            var dto = new { MeterId = meterId };
+            var json = JsonSerializer.Serialize(dto);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await client.PostAsync("https://localhost:7252/api/Meters/install", content);
 
             if (response.IsSuccessStatusCode)
             {
-                TempData["Success"] = "Meter installed successfully!";
-                return RedirectToAction("MyMeters");
+                TempData["SuccessMessage"] = "Meter has been installed successfully!";
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                TempData["ErrorMessage"] = "Installation failed: " + error;
             }
 
-            ModelState.AddModelError("", "Failed to complete installation.");
-            return View("Install", model);
+            return RedirectToAction("MyMeters"); // يرجعه لقايمة عداداته بعد التنفيذ
         }
     }
 }

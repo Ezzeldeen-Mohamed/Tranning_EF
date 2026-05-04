@@ -1,3 +1,4 @@
+using MeterViewMangement.Controllers;
 using MeterViewMangement.Http;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.IdentityModel.Tokens.Jwt;
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddHttpClient<MeterController>();
 
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();

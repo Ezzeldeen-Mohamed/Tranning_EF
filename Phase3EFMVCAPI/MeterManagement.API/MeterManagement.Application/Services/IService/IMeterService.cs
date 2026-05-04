@@ -6,7 +6,7 @@ namespace MeterManagement.Application.Services.IService
 {
     public interface IMeterService
     {
-        Task<List<GetMeterDto>> GetAll();
+        Task<PagedResult<GetMeterDto>> GetAll(MeterQueryParameters query);
         Task<GetMeterDto?> GetById(int id);
         Task Create(MeterDto dto);
         Task<List<string>> CreateBulk(List<MeterDto> dtos);
@@ -18,5 +18,6 @@ namespace MeterManagement.Application.Services.IService
         Task InstallMeter(int meterId, string userId);
         Task Delete(int id);
         Task SoftDelete(int id);
+        Task Restore(int id);
     }
 }

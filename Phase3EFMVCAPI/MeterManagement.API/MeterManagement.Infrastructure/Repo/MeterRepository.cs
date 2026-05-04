@@ -19,19 +19,31 @@ namespace MeterManagement.Infrastructure.Repo
         {
             return await _context.Meters
                 .Where(m => !m.IsDeleted)
+                .IgnoreQueryFilters()
                 .ToListAsync();
+        }
+        public IQueryable<Meter> GetQueryable()
+        {
+            return _context.Meters.AsQueryable();
+        }
+        public async Task Restore(Meter meter)
+        {
+            meter.IsDeleted = false;
+            _context.Meters.Update(meter);
         }
         public async Task<List<Meter>> GetByUserId(string userId)
         {
             return await _context.Meters
                 .Where(m => m.UserId == userId && !m.IsDeleted)
+                .IgnoreQueryFilters()
                 .ToListAsync();
         }
 
         public async Task<List<Meter>> GetByStatus(MeterStatus status)
         {
             return await _context.Meters
-                .Where(m => m.Status == status)
+                .Where(m => m.Status == status && !m.IsDeleted)
+                .IgnoreQueryFilters()
                 .ToListAsync();
         }
         public async Task<Meter?> GetById(int id)
