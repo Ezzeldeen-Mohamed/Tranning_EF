@@ -6,7 +6,6 @@
             <div class="col col-xl-10">
                 <div class="card shadow-lg position-relative" style="border-radius: 1rem; border: none;">
 
-                    @* 🛠 إظهار الـ Dropdown فقط للـ Admin *@
                     @if (User.IsInRole("Admin"))
                     {
                         <div class="position-absolute" style="top: 20px; right: 20px; z-index: 10;">
@@ -37,7 +36,6 @@
                     }
 
                     <div class="row g-0">
-                        <!-- Image Section -->
                         <div class="col-md-6 col-lg-5 d-none d-md-block">
                             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img2.webp"
                                  alt="Meter Details" class="img-fluid" style="border-radius: 1rem 0 0 1rem; height: 100%; object-fit: cover;" />
@@ -60,7 +58,6 @@
 
                                 <div class="mb-4">
                                     <p class="text-muted mb-1 small uppercase fw-bold">Current Status</p>
-                                    @* ... (شرط الـ Status يفضل زي ما هو لأنه للعرض فقط) ... *@
                                     @if (Model.Status?.ToString() == "Installed")
                                     {
                                         <h4 class="text-success"><i class="fas fa-check-circle me-2"></i>Installed & Operational</h4>
@@ -78,12 +75,10 @@
                                 <hr class="my-4" />
 
                                 <div class="d-flex gap-3">
-                                    @* 1. زرار العودة متاح للكل *@
                                     <a href="javascript:void(0);" onclick="history.back();" class="btn btn-outline-secondary px-4">
                                         <i class="fas fa-arrow-left me-1"></i> Back
                                     </a>
 
-                                    @* 2. زرار الـ Edit يظهر فقط للـ Admin *@
                                     @if (User.IsInRole("Admin"))
                                     {
                                         <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-outline-primary px-4 shadow-sm">
@@ -91,14 +86,11 @@
                                         </a>
                                     }
 
-                                    @* 3. زرار الـ Install يظهر فقط للـ Agent ولو العداد Assigned *@
                                     @if (User.IsInRole("Agent") && Model.Status?.ToString() == "Assigned")
                                     {
-                                        @* حددنا الأكشن والكنترولر هنا في الفورم مباشرة *@
                                         <form asp-action="Install" asp-controller="Agent" method="post" class="d-inline">
                                             @Html.AntiForgeryToken()
 
-                                                @* تأكد إن الـ name هنا هو meterId عشان يطابق الـ Controller *@
                                                 <input type="hidden" name="meterId" value="@Model.Id" />
 
                                                 <button type="submit" class="btn btn-success px-4 shadow-sm">

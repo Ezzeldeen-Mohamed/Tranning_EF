@@ -589,3 +589,58 @@
 2026-05-05 01:56:36.915 +03:00 [INF] Finished handling request with status code: 200
 2026-05-05 01:56:39.232 +03:00 [INF] Handling request: GET /api/Meters/my-meters
 2026-05-05 01:56:39.238 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:12.023 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 07:26:12.955 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-05 07:26:13.006 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:15.166 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:26:15.485 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 07:26:15.492 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 07:26:15.542 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:20.760 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-05 07:26:20.863 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:24.363 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:26:24.421 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:27.567 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-05 07:26:27.578 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:29.173 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:26:29.187 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:32.111 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:26:32.129 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 07:26:32.144 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 07:26:32.187 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:42.032 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:26:42.073 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 07:26:42.078 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-05 07:26:42.095 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:43.863 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:26:43.876 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:26:51.317 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:26:51.331 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:28:44.315 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-05 07:28:44.392 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-05 07:28:44.402 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:51:28.784 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:51:28.807 +03:00 [INF] Finished handling request with status code: 401
+2026-05-05 07:51:32.914 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 07:51:33.348 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-05 07:51:33.352 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:51:35.448 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:51:35.506 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:51:56.366 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-05 07:51:56.387 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:51:59.078 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:51:59.091 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:52:02.844 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-05 07:52:02.853 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:52:04.987 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-05 07:52:04.996 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:52:16.896 +03:00 [INF] Handling request: PUT /api/Meters/3
+2026-05-05 07:52:17.351 +03:00 [INF] Meter updated: 3
+2026-05-05 07:52:17.365 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:52:17.411 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-05 07:52:17.439 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:52:26.422 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-05 07:52:26.690 +03:00 [INF] User with email mostafa@gmail.com logged in successfully
+2026-05-05 07:52:26.695 +03:00 [INF] Finished handling request with status code: 200
+2026-05-05 07:52:28.132 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-05 07:52:28.172 +03:00 [INF] Finished handling request with status code: 200

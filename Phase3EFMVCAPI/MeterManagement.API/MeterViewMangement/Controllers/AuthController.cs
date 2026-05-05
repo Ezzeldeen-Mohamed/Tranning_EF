@@ -46,7 +46,6 @@ namespace MeterViewMangement.Controllers
                 "application/json"
             );
 
-            // 1. نكلم الـ API الأول عشان نأخد التوكن
             var response = await _httpClient.PostAsync("https://localhost:7252/api/Auth/login", content);
             var result = await response.Content.ReadAsStringAsync();
 
@@ -56,28 +55,21 @@ namespace MeterViewMangement.Controllers
                 return View("Login", model);
             }
 
-            // 2. نفك التوكن ونطلع البيانات منه
             var tokenObj = JsonSerializer.Deserialize<JsonElement>(result);
             var token = tokenObj.GetProperty("token").GetString();
 
-            // حفظ التوكن في الـ Session أو الـ Cookie حسب طريقتك
             TokenStorage.Save(HttpContext, token);
 
             var handler = new JwtSecurityTokenHandler();
             var jwtToken = handler.ReadJwtToken(token);
 
-            // سحب الـ Claims من التوكن الحقيقي
             var claims = jwtToken.Claims.ToList();
-            // الـ Claims دي فيها الـ Name والـ Roles والـ ID اللي الـ API بعتتهم
 
-            // 3. تفعيل الـ Cookie Authentication في الـ MVC
-            // دي الخطوة اللي هتخلي [Authorize] تشتغل
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-            // 4. التوجيه حسب الـ Role
             var roles = claims.Where(c => c.Type == ClaimTypes.Role || c.Type == "role")
                               .Select(c => c.Value).ToList();
 
@@ -150,10 +142,8 @@ namespace MeterViewMangement.Controllers
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
-            // 1. مسح الـ Cookie بتاع الـ MVC
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-            // 2. مسح الـ Token من الـ Session/Storage
             TokenStorage.Clear(HttpContext);
 
             return RedirectToAction("Login", "Auth");

@@ -51,13 +51,12 @@ namespace MeterManagement.Application.Services
                 return _translations[currentCulture][key];
             }
 
-            // Fallback to Arabic as default
             if (_translations["ar"].ContainsKey(key))
             {
                 return _translations["ar"][key];
             }
 
-            // Return key if not found
+
             return key;
         }
     }

@@ -14,6 +14,17 @@
                 </div>
             </div>
         </div>
+        <!-- إدارة المستخدمين -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Users List</h5>
+                    <p class="card-text text-muted">View all users and change their roles (Admin/Agent).</p>
+                    <a asp-controller="Admin" asp-action="Index" class="btn btn-primary w-100">Manage Users</a>
+                </div>
+            </div>
+        </div>
 
         <!-- إضافة عداد جديد -->
         <div class="card h-100 shadow-sm border-0 text-white bg-dark">
@@ -40,30 +51,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- تخصيص عداد لموظف -->
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body text-center">
-                    <i class="fas fa-user-tag fa-3x text-warning mb-3"></i>
-                    <h5 class="card-title">Assign Meter</h5>
-                    <p class="card-text text-muted">Assign a meter to an agent using their email.</p>
-                    <button class="btn btn-warning w-100 text-dark">Assign Now</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- إدارة المستخدمين -->
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body text-center">
-                    <i class="fas fa-users fa-3x text-primary mb-3"></i>
-                    <h5 class="card-title">Users List</h5>
-                    <p class="card-text text-muted">View all users and change their roles (Admin/Agent).</p>
-                    <a asp-controller="Admin" asp-action="Index" class="btn btn-primary w-100">Manage Users</a>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -75,7 +62,6 @@
                 <h5 class="modal-title" id="importExcelModalLabel"><i class="fas fa-file-excel me-2"></i>Import Meters from Excel</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <!-- تأكد إن اسم الـ Action مطابق للي في الـ Controller -->
             <form asp-controller="Meter" asp-action="ImportExcel" method="post" enctype="multipart/form-data">
                 <div class="modal-body p-4">
                     <div class="mb-3">

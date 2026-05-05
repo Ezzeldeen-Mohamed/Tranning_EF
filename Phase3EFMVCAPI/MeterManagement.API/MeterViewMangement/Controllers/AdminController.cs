@@ -47,14 +47,12 @@ namespace MeterViewMangement.Controllers
             return RedirectToAction("Login", "Auth");
         }
 
-        // 1. عرض صفحة تفاصيل اليوزر وتغيير الدور
         [HttpGet]
         public async Task<IActionResult> Details(string email)
         {
             var token = TokenStorage.Get(HttpContext);
             _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // هنجيب اليوزر بالـ Email أو لو عندك أكشن GetByEmail في الـ API
             var response = await _httpClient.GetAsync($"https://localhost:7252/api/Auth/users");
             var content = await response.Content.ReadAsStringAsync();
             var allUsers = JsonSerializer.Deserialize<List<UserViewModel>>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
@@ -67,7 +65,7 @@ namespace MeterViewMangement.Controllers
                 Email = user.Email,
                 FullName = user.FullName,
                 CurrentRole = user.Role,
-                NewRole = user.Role // القيمة الافتراضية في الـ Dropdown
+                NewRole = user.Role
             };
 
             return View("UserDetails", viewModel);

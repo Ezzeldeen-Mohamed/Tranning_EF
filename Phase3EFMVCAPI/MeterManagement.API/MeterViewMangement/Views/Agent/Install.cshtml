@@ -14,7 +14,6 @@
             </ul>
 
             <div class="d-flex gap-2">
-                <!-- زرار الـ Install يظهر فقط لو الحالة Assigned -->
                 @if (Model.Status == "Assigned")
                 {
                     <form asp-action="Install" asp-controller="Agent" method="post">

@@ -18,8 +18,8 @@
     public class AssignMeterViewModel
     {
         public int MeterId { get; set; }
-        public string SerialNumber { get; set; } // للعرض فقط عشان نعرف إحنا بنوزع أنهي عداد
-        public string Email { get; set; } // إيميل الموظف (Agent) اللي هنربطه
+        public string SerialNumber { get; set; }
+        public string Email { get; set; }
     }
 
     public class GetAssignedMetersViewModel

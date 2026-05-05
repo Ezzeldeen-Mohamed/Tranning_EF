@@ -106,7 +106,7 @@ namespace MeterManagement.API.Controllers
         [Authorize(Roles = Roles.Admin)]
         public async Task<IActionResult> Restore(int id)
         {
-            await _service.Restore(id); // الميثود دي في السيرفيس بتخلي IsDeleted = false
+            await _service.Restore(id);
             return Ok("Meter Restored Successfully");
         }
 

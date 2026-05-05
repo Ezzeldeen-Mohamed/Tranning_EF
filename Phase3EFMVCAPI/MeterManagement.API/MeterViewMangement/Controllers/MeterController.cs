@@ -23,7 +23,6 @@ namespace MeterViewMangement.Controllers
             _httpClient.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // بناء الـ URL بالـ Query Strings
             var url = $"https://localhost:7252/api/Meters?pageNumber={pageNumber}&pageSize=10&serialNumber={serialNumber}&status={status}";
 
             var response = await _httpClient.GetAsync(url);
@@ -34,7 +33,6 @@ namespace MeterViewMangement.Controllers
                 var pagedData = JsonSerializer.Deserialize<PagedMetersViewModel>(content,
                     new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
-                // نمرر قيم الفلترة للـ View عشان تفضل مكتوبة في الـ Search Bar
                 pagedData.SerialFilter = serialNumber;
                 pagedData.StatusFilter = status;
 
@@ -47,7 +45,7 @@ namespace MeterViewMangement.Controllers
         [HttpGet]
         public IActionResult GetMeter(int id)
         {
-            return RedirectToAction("Details", new { id }); // صفحة الـ View اللي هتحتوي على الفورم
+            return RedirectToAction("Details", new { id });
         }
 
 
@@ -77,7 +75,6 @@ namespace MeterViewMangement.Controllers
 
             return RedirectToAction("GetAll");
         }
-        // 1. عرض صفحة الإنشاء
         [HttpGet]
         public IActionResult Create()
         {
@@ -93,25 +90,22 @@ namespace MeterViewMangement.Controllers
             _httpClient.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // ابعت الـ model مباشرة والـ JsonSerializer هيقوم بالواجب
             var json = JsonSerializer.Serialize(model);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            // تأكد إن الـ Port والـ URL مطابقين للـ API بالظبط
             var response = await _httpClient.PostAsync("https://localhost:7252/api/Meters/add-meter", content);
 
             if (response.IsSuccessStatusCode)
             {
                 TempData["SuccessMessage"] = "Done!";
-                return RedirectToAction("GetAll"); // لازم Redirect عشان يحس بالتغيير
+                return RedirectToAction("GetAll");
             }
             if (!response.IsSuccessStatusCode)
             {
                 var errors = await response.Content.ReadAsStringAsync();
-                TempData["ErrorMessage"] = errors; // حط الخطأ هنا
-                return RedirectToAction("Create"); // ارجع GET مش POST
+                TempData["ErrorMessage"] = errors;
+                return RedirectToAction("Create");
             }
-            // لو فشل، هات رسالة الخطأ من الـ API واعرضها
             var errorMsg = await response.Content.ReadAsStringAsync();
             ModelState.AddModelError("", errorMsg);
 
@@ -128,7 +122,6 @@ namespace MeterViewMangement.Controllers
         {
             if (!ModelState.IsValid) return View(model);
 
-            // 1. تحويل النص لـ List<MeterDto> (كل سطر عبارة عن سيريال)
             var serialsList = model.SerialNumber
                 .Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(s => new { SerialNumber = s.Trim() })
@@ -144,7 +137,6 @@ namespace MeterViewMangement.Controllers
             _httpClient.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // 2. إرسال البيانات للـ API (مسار الـ /bulk)
             var json = JsonSerializer.Serialize(serialsList);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
@@ -153,7 +145,6 @@ namespace MeterViewMangement.Controllers
             if (response.IsSuccessStatusCode)
             {
                 var resultJson = await response.Content.ReadAsStringAsync();
-                // ممكن تفك الـ Rejected Serials لو عايز تعرضها للمستخدم
                 TempData["SuccessMessage"] = "Bulk processing completed!";
                 return RedirectToAction("GetAll");
             }
@@ -163,7 +154,6 @@ namespace MeterViewMangement.Controllers
         }
 
 
-        // 1. GET: عرض صفحة التعديل ببيانات العداد الحالية
         [HttpGet]
         public async Task<IActionResult> Update(int id)
         {
@@ -171,7 +161,6 @@ namespace MeterViewMangement.Controllers
             _httpClient.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // بنجيب البيانات الحالية من الـ API عشان نعرضها في الفورم
             var response = await _httpClient.GetAsync($"https://localhost:7252/api/Meters/{id}");
 
             if (response.IsSuccessStatusCode)
@@ -187,7 +176,6 @@ namespace MeterViewMangement.Controllers
             return RedirectToAction("GetAll");
         }
 
-        // 2. POST: إرسال التعديلات الجديدة للـ API
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(int id, MeterCreateViewModel model)
@@ -198,11 +186,9 @@ namespace MeterViewMangement.Controllers
             _httpClient.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // تحويل الـ Model لـ JSON عشان يتبعت في الـ Body
             var json = JsonSerializer.Serialize(model);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            // تنفيذ الـ PUT Request
             var response = await _httpClient.PutAsync($"https://localhost:7252/api/Meters/{id}", content);
 
             if (response.IsSuccessStatusCode)
@@ -211,7 +197,6 @@ namespace MeterViewMangement.Controllers
                 return RedirectToAction("GetAll");
             }
 
-            // لو حصل خطأ في الـ API
             var errorMsg = await response.Content.ReadAsStringAsync();
             ModelState.AddModelError("", $"API Error: {errorMsg}");
             return View(model);
@@ -231,12 +216,10 @@ namespace MeterViewMangement.Controllers
             _httpClient.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // 1. تجهيز الـ Multipart Content
             using var content = new MultipartFormDataContent();
             using var stream = file.OpenReadStream();
             var fileContent = new StreamContent(stream);
 
-            // إضافة الملف للمحتوى (الاسم "file" لازم يطابق اسم البراميتر في الـ API)
             content.Add(fileContent, "file", file.FileName);
 
             // 2. إرسال الـ Request
@@ -250,11 +233,10 @@ namespace MeterViewMangement.Controllers
                     TempData["ImportErrors"] = result.Errors.ToArray();
                 }
 
-                // تخزين النتيجة لعرضها في الـ View
                 TempData["SuccessMessage"] = $"Import Done! Success: {result.SuccessCount}, Failed: {result.FailedCount}";
 
                 if (result.Errors.Any())
-                    TempData["ImportErrors"] = result.Errors; // قائمة الأخطاء
+                    TempData["ImportErrors"] = result.Errors;
 
                 return RedirectToAction("GetAll");
             }
@@ -265,7 +247,6 @@ namespace MeterViewMangement.Controllers
 
                 if (result.FailedCount > 0)
                 {
-                    // بنحول لستة الأخطاء لـ String واحد عشان TempData
                     TempData["ImportErrors"] = string.Join("|", result.Errors);
                 }
                 return RedirectToAction("GetAll");
@@ -275,7 +256,6 @@ namespace MeterViewMangement.Controllers
             return RedirectToAction("GetAll");
         }
 
-        // --- Soft Delete ---
         [HttpGet]
         public async Task<IActionResult> ConfirmSoftDelete(int id)
         {
@@ -305,7 +285,6 @@ namespace MeterViewMangement.Controllers
             return RedirectToAction("GetAll");
         }
 
-        // --- Hard Delete ---
         [HttpGet]
         public async Task<IActionResult> ConfirmDelete(int id)
         {
@@ -345,7 +324,6 @@ namespace MeterViewMangement.Controllers
                     new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
             }
 
-            // لو الـ API رجع 404 أو 500 مش هنخلي الـ UI تضرب، هنرجع null والـ Controller يتصرف
             return null;
         }
 
@@ -369,7 +347,6 @@ namespace MeterViewMangement.Controllers
         }
 
 
-        // 1. عرض صفحة التخصيص
         [HttpGet]
         public async Task<IActionResult> Assign(int id, string serialNumber)
         {
@@ -381,7 +358,6 @@ namespace MeterViewMangement.Controllers
             return View("~/Views/Admin/Assign.cshtml", model);
         }
 
-        // 2. إرسال الطلب للـ API
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Assign(AssignMeterViewModel model)
@@ -412,16 +388,13 @@ namespace MeterViewMangement.Controllers
         [HttpGet]
         public async Task<IActionResult> MyMeters()
         {
-            // 1. جلب التوكن
             var token = TokenStorage.Get(HttpContext);
             if (string.IsNullOrEmpty(token)) return RedirectToAction("Login", "Auth");
 
-            // 2. إعداد الـ HttpClient
             using var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // 3. نداء الـ API
             var response = await client.GetAsync("https://localhost:7252/api/Meters/my-meters");
 
             List<GetAssignedMetersViewModel> meters = new();
@@ -437,7 +410,6 @@ namespace MeterViewMangement.Controllers
                 TempData["ErrorMessage"] = "Failed to load your meters.";
             }
 
-            // 4. عرض الـ View من المسار اللي حددناه
             return View("~/Views/Agent/MyMeters.cshtml", meters);
         }
 

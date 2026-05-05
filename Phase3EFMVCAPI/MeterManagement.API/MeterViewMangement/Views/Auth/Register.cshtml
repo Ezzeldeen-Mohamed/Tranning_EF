@@ -81,7 +81,6 @@
                 <div class="card card-registration">
                     <div class="card-body p-0">
                         <div class="row g-0">
-                            <!-- الجزء الأيسر: الفورم -->
                             <div class="col-md-12 col-lg-6 p-5 order-2 order-lg-1">
                                 <h2 class="reg-header mb-4">Join the Network</h2>
                                 <p class="text-muted mb-5">Create your agent account to start managing smart meters efficiently.</p>
@@ -89,7 +88,6 @@
                                 <form asp-action="RegisterFun" method="post">
                                     <div asp-validation-summary="ModelOnly" class="text-danger small mb-3"></div>
 
-                                    <!-- Full Name -->
                                     <div class="mb-4">
                                         <label class="form-label fw-bold small">FULL NAME</label>
                                         <div class="input-group">
@@ -99,7 +97,6 @@
                                         <span asp-validation-for="FullName" class="text-danger small"></span>
                                     </div>
 
-                                    <!-- Email -->
                                     <div class="mb-4">
                                         <label class="form-label fw-bold small">EMAIL ADDRESS</label>
                                         <div class="input-group">
@@ -109,7 +106,6 @@
                                         <span asp-validation-for="Email" class="text-danger small"></span>
                                     </div>
 
-                                    <!-- Password -->
                                     <div class="mb-4">
                                         <label class="form-label fw-bold small">PASSWORD</label>
                                         <div class="input-group">

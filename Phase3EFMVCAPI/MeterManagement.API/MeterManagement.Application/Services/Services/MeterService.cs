@@ -31,10 +31,8 @@ namespace MeterManagement.Application.Services.Services
 
         public async Task<PagedResult<GetMeterDto>> GetAll(MeterQueryParameters query)
         {
-            // 1. هنجيب الـ IQueryable من الـ Repo عشان ما ننفذش الكويري دلوقتي
             var queryable = _repo.GetQueryable();
 
-            // 2. تطبيق الـ Filtering
             if (!string.IsNullOrEmpty(query.SerialNumber))
             {
                 queryable = queryable.Where(m => m.SerialNumber.Contains(query.SerialNumber));
@@ -48,10 +46,8 @@ namespace MeterManagement.Application.Services.Services
                 }
             }
 
-            // 3. حساب العدد الكلي قبل الـ Pagination
             var totalCount = await queryable.CountAsync();
 
-            // 4. تطبيق الـ Pagination (Skip & Take)
             var meters = await queryable
                 .Skip((query.PageNumber - 1) * query.PageSize)
                 .Take(query.PageSize)
@@ -231,7 +227,6 @@ namespace MeterManagement.Application.Services.Services
                 }
             }
 
-            // 🔍 check duplicates in DB
             var serials = meters.Select(m => m.SerialNumber).ToList();
             var existing = await _repo.GetBySerials(serials);
 
@@ -251,7 +246,6 @@ namespace MeterManagement.Application.Services.Services
                 validMeters.Add(meter);
             }
 
-            // 💾 save valid only
             if (validMeters.Any())
             {
                 await _repo.AddRange(validMeters);

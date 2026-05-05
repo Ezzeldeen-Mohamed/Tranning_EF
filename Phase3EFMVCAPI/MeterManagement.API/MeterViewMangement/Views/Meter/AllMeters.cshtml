@@ -1,7 +1,6 @@
 ﻿@model PagedMetersViewModel
 
 <div class="container-fluid py-4 animate slideIn">
-    <!-- 1. Header & Quick Alerts -->
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2 class="fw-bold text-dark mb-0"><i class="fas fa-microchip me-2"></i>Meter Inventory</h2>
 
@@ -18,7 +17,6 @@
         </div>
     </div>
 
-    <!-- 2. Status Alerts -->
     @if (TempData["ErrorMessage"] != null)
     {
         <div class="alert alert-danger border-0 shadow-sm alert-dismissible fade show" role="alert">
@@ -34,7 +32,6 @@
         </div>
     }
 
-    <!-- 3. 🔍 Filter Section -->
     <div class="card shadow-sm mb-4 border-0">
         <div class="card-body bg-light rounded">
             <form method="get" asp-action="GetAll" class="row g-3">
@@ -60,7 +57,6 @@
         </div>
     </div>
 
-    <!-- 4. 📊 Data Table -->
     <div class="card shadow-sm border-0 overflow-hidden">
         <div class="table-responsive">
             <table class="table table-hover align-middle mb-0">
@@ -137,7 +133,6 @@
                                                     </li>
                                                     <li><hr class="dropdown-divider"></li>
                                                 }
-                                                <!-- Edit -->
                                                 <li>
                                                     <a asp-controller="Meter"
                                                        asp-action="Update"
@@ -150,7 +145,6 @@
 
                                                 <li><hr class="dropdown-divider"></li>
 
-                                                <!-- Soft Delete -->
                                                 <li>
                                                     <a asp-controller="Meter"
                                                        asp-action="ConfirmSoftDelete"
@@ -161,7 +155,6 @@
                                                     </a>
                                                 </li>
 
-                                                <!-- Hard Delete -->
                                                 <li>
                                                     <a asp-controller="Meter"
                                                        asp-action="ConfirmDelete"
@@ -184,7 +177,6 @@
         </div>
     </div>
 
-    <!-- 5. 📄 Pagination -->
     @if (Model.TotalPages > 1)
     {
         <nav class="mt-4">
@@ -204,7 +196,6 @@
 </div>
 
 <style>
-    /* دخول الصفحة بشكل ناعم */
     .animate.slideIn {
         animation: slideIn 0.5s ease-out forwards;
     }
@@ -221,7 +212,6 @@
         }
     }
 
-    /* تأثير الـ Hover على الأزرار */
     .hover-up {
         transition: all 0.2s ease;
     }
@@ -231,7 +221,6 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
         }
 
-    /* تنسيق الجدول */
     .clickable-row {
         transition: background-color 0.2s ease;
     }
@@ -240,7 +229,6 @@
             background-color: #f8f9fa !important;
         }
 
-    /* تنسيق الـ Dropdown */
     .dropdown-menu {
         border-radius: 15px;
         padding: 10px;
@@ -251,7 +239,6 @@
         margin-bottom: 2px;
     }
 
-    /* الـ Pagination */
     .page-link {
         border: none;
         margin: 0 3px;
@@ -268,7 +255,7 @@
         display: inline-block;
         padding: 6px 14px;
         border: 1px solid #ccc;
-        border-radius: 20px; /* نص دايرة */
+        border-radius: 20px; 
         background-color: white;
         color: #333;
         text-decoration: none;

@@ -14,7 +14,6 @@ namespace MeterViewMangement.Models
         public string SerialNumber { get; set; }
     }
 
-    // كلاس لاستقبال الرد من الـ API
     public class PagedMetersViewModel
     {
         public List<DeleteMeterViewModel> Items { get; set; }
@@ -22,7 +21,6 @@ namespace MeterViewMangement.Models
         public int PageNumber { get; set; }
         public int TotalPages { get; set; }
 
-        // لإرسال قيم البحث والفلترة للـ View مرة تانية
         public string? SerialFilter { get; set; }
         public string? StatusFilter { get; set; }
     }
@@ -38,7 +36,6 @@ namespace MeterViewMangement.Models
         public int Id { get; set; }
         public string SerialNumber { get; set; }
         public string Status { get; set; }
-        // لازم تكون موجودة هنا كمان عشان الـ View تحس بيها
         public bool IsDeleted { get; set; }
     }
 

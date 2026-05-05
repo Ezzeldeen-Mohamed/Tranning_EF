@@ -11,7 +11,6 @@
         public string? Status { get; set; } // "Assigned", "Installed", etc.
     }
 
-    // كلاس عشان الـ Response يرجع معاه معلومات الصفحات
     public class PagedResult<T>
     {
         public List<T> Items { get; set; }
