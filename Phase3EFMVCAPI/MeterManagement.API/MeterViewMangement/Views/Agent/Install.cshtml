@@ -1,0 +1,31 @@
+﻿@model GetAssignedMetersViewModel
+
+<div class="container py-5">
+    <div class="card shadow-lg border-0">
+        <div class="card-header bg-dark text-white d-flex justify-content-between">
+            <h4 class="mb-0">Meter Details</h4>
+            <span class="badge bg-warning text-dark">@Model.Status</span>
+        </div>
+        <div class="card-body">
+            <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item"><strong>Meter ID:</strong> #@Model.Id</li>
+                <li class="list-group-item"><strong>Serial Number:</strong> @Model.SerialNumber</li>
+                <li class="list-group-item"><strong>Status:</strong> @Model.Status</li>
+            </ul>
+
+            <div class="d-flex gap-2">
+                @if (Model.Status == "Assigned")
+                {
+                    <form asp-action="Install" asp-controller="Agent" method="post">
+                        <input type="hidden" name="meterId" value="@Model.Id" />
+                        <button type="submit" class="btn btn-success px-4">
+                            <i class="fas fa-tools me-2"></i> Install This Meter
+                        </button>
+                    </form>
+                }
+
+                <a asp-action="MyMeters" class="btn btn-outline-secondary px-4">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

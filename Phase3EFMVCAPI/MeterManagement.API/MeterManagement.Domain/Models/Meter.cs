@@ -15,7 +15,7 @@ namespace MeterManagement.API.Models
         public string SerialNumber { get; set; }
         public MeterStatus Status { get; set; }
 
-        //3shan n3ml softdelete w nshof etmsa7t emta
+        //3shan n3ml softdelete w nshof etmsa7t emta    
         public bool IsDeleted { get; set; } = false;
         public DateTime? DeletedAt { get; set; }
 

@@ -1,0 +1,51 @@
+﻿@model MeterViewMangement.Models.MeterViewModel
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="card-header bg-dark text-white p-4">
+                    <h3 class="mb-0"><i class="fas fa-plus-circle me-2"></i>Register New Meter</h3>
+                </div>
+                <div class="card-body p-5">
+                    <form asp-action="Create" method="post" asp-controller="Meter">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="text-danger small mb-3"></div>
+
+                        <div class="mb-4">
+                            <label asp-for="SerialNumber" class="form-label fw-bold">Serial Number</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="fas fa-barcode"></i></span>
+                                <input asp-for="SerialNumber" class="form-control form-control-lg" placeholder="e.g. SN-123456" autofocus />
+                            </div>
+                            <span asp-validation-for="SerialNumber" class="text-danger small"></span>
+                            <div class="form-text mt-2 text-muted">
+                                Make sure the serial number is unique and follows the hardware label.
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 pt-3">
+                            <button type="submit"  class="btn btn-primary btn-lg shadow">
+                                <i class="fas fa-save me-2"></i> Save Meter
+                            </button>
+                            <a asp-action="GetAll" asp-controller="Meter" class="btn btn-outline-secondary">
+                                Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

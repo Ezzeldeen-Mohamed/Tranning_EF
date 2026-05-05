@@ -1,0 +1,1606 @@
+2026-05-04 18:40:40.587 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 18:40:41.763 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 18:40:41.815 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:43:38.817 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:43:39.295 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 18:43:39.304 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 18:43:39.391 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:44:05.555 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:44:05.589 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:53:04.417 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 18:53:04.679 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 18:53:04.687 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:53:30.999 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:53:31.066 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 18:53:31.068 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 18:53:31.090 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:53:37.584 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:53:37.622 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 18:53:37.625 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 18:53:37.642 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:53:39.362 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:53:39.374 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:53:52.224 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:53:52.244 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:53:55.003 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:53:55.015 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:53:59.041 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:53:59.052 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:54:02.597 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:54:02.607 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:54:06.941 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:54:06.969 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:54:08.976 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 18:54:09.256 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:54:11.032 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:54:11.044 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:54:27.713 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:54:27.727 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 18:54:27.730 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 18:54:27.740 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:54:30.534 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:54:30.552 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:55:43.237 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:55:43.266 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:55:55.551 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:55:55.582 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:56:00.673 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:56:00.689 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:56:04.311 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:56:04.350 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:56:07.235 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:56:07.287 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:56:08.034 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:56:08.045 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:00.055 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 18:57:00.081 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:01.918 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:57:01.942 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:03.046 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 18:57:03.057 +03:00 [WRN] Meter not found: 2
+2026-05-04 18:57:03.063 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 18:57:03.160 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 18:57:03.177 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:57:03.188 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:05.021 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 18:57:05.030 +03:00 [WRN] Meter not found: 2
+2026-05-04 18:57:05.038 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 18:57:05.071 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 18:57:05.087 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:57:05.096 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:06.152 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 18:57:06.159 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:07.618 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:57:07.628 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:09.105 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:57:09.114 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:10.769 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 18:57:10.779 +03:00 [WRN] Meter not found: 2
+2026-05-04 18:57:10.784 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 18:57:10.809 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 18:57:10.825 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:57:10.835 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:20.111 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:57:20.127 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:22.302 +03:00 [INF] Handling request: GET /api/Meters/17
+2026-05-04 18:57:22.310 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 18:57:23.920 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 18:57:23.929 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:03:03.102 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:03:03.229 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 19:03:07.611 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:03:08.031 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:03:08.070 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:03:10.272 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:03:10.587 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:03:10.590 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:03:10.667 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:03:27.101 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:03:27.196 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:03:29.503 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:03:29.530 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:03:30.405 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:03:30.413 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:03:32.310 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:03:32.321 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:03:33.287 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:03:33.308 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:04:24.848 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:04:25.042 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 19:04:28.606 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:04:29.238 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:04:29.294 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:04:30.874 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:04:31.107 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:04:31.112 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:04:31.172 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:06:18.787 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:06:18.818 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:06:21.550 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:06:21.587 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:06:21.594 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:06:21.607 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:09:36.930 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:09:36.963 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:16:20.255 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:16:20.426 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 19:16:24.429 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:16:25.330 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:16:25.402 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:16:27.003 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:16:27.272 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:16:27.398 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:16:27.406 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:16:27.469 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:16:27.469 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:23:07.387 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:23:08.400 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:23:08.469 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:23:09.868 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:23:10.249 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:23:10.252 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:23:10.294 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:25:10.088 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:25:10.111 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 19:25:13.895 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:25:14.375 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:25:14.451 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:25:16.274 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:25:16.321 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:30:30.949 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:30:30.953 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 19:30:33.520 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:30:33.924 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:30:33.930 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:30:35.059 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:30:35.088 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:31:56.842 +03:00 [INF] Handling request: POST /api/Meters/add-meter
+2026-05-04 19:31:56.848 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 19:32:35.927 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:32:35.951 +03:00 [WRN] Login attempt failed: User with email admin@gamil.com not found
+2026-05-04 19:32:35.957 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: Invalid email or password
+   at MeterManagement.Application.Services.Services.AuthService.Login(LoginDto dto) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\AuthService.cs:line 69
+   at MeterManagement.API.Controllers.AuthController.Login(LoginDto dto) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\AuthController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 19:32:36.070 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 19:33:09.495 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:33:09.963 +03:00 [WRN] Login attempt failed: User with email admin@gamil.com not found
+2026-05-04 19:33:09.975 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: Invalid email or password
+   at MeterManagement.Application.Services.Services.AuthService.Login(LoginDto dto) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\AuthService.cs:line 69
+   at MeterManagement.API.Controllers.AuthController.Login(LoginDto dto) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\AuthController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 19:33:10.044 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 19:33:21.081 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:33:21.513 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:33:21.571 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:33:48.302 +03:00 [INF] Handling request: POST /api/Meters/add-meter
+2026-05-04 19:33:48.966 +03:00 [INF] Meter created basaasa-121212
+2026-05-04 19:33:48.975 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:34:07.180 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:34:07.483 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:34:07.492 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:34:09.182 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:34:09.467 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:34:09.472 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:34:09.535 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:34:12.384 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:34:12.404 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:34:12.414 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:34:12.432 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:34:14.823 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:34:14.853 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:35:14.446 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:35:14.503 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:35:23.029 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:35:23.044 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:38:09.431 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:38:09.457 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:44:01.872 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:44:01.881 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 19:44:04.442 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:44:04.833 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:44:04.836 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:44:06.160 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:44:06.244 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:51:05.949 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 19:51:06.718 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 19:51:06.780 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:51:08.165 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:51:08.481 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:51:08.485 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:51:08.556 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:51:11.519 +03:00 [INF] Handling request: POST /api/Meters/add-meter
+2026-05-04 19:51:12.073 +03:00 [INF] Meter created Ezz-meter-123
+2026-05-04 19:51:12.079 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:51:12.100 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:51:12.161 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:51:15.418 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:51:15.428 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:19.277 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:19.310 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:21.248 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:21.273 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:55:21.289 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:55:21.304 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:23.464 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:23.478 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:24.854 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:24.862 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:29.772 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:29.795 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:55:29.798 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:55:29.811 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:32.620 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:32.643 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:36.074 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:36.088 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:38.654 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:38.664 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:55:38.672 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:55:38.689 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:41.034 +03:00 [INF] Handling request: GET /api/Meters/16
+2026-05-04 19:55:41.067 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:46.103 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:46.111 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:48.072 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:48.080 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:49.349 +03:00 [INF] Handling request: GET /api/Meters/22
+2026-05-04 19:55:49.364 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:55:51.529 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:55:51.545 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:56:16.619 +03:00 [INF] Handling request: POST /api/Meters/add-meter
+2026-05-04 19:56:16.707 +03:00 [INF] Meter created Doctor-123
+2026-05-04 19:56:16.718 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:56:16.766 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:56:16.802 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:56:19.591 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:56:19.628 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:56:44.391 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:56:44.430 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:56:44.437 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 19:56:44.455 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:56:48.014 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:56:48.023 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:56:51.152 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:56:51.165 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:56:52.588 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:56:52.603 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 19:56:55.745 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 19:56:55.758 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:08:16.499 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 20:08:17.235 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 20:08:17.283 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:11:33.315 +03:00 [INF] Handling request: POST /api/Meters/add-meter
+2026-05-04 20:11:34.046 +03:00 [INF] Meter created final-me1
+2026-05-04 20:11:34.054 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:11:34.081 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:11:34.221 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:11:34.225 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:11:34.263 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:11:36.818 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:11:36.874 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:12:01.814 +03:00 [INF] Handling request: POST /api/Meters/bulk
+2026-05-04 20:12:02.043 +03:00 [INF] Bulk meters created successfully. Total meters: 5
+2026-05-04 20:12:02.046 +03:00 [INF] Bulk meter creation completed. Rejected meters due to duplicates: 0
+2026-05-04 20:12:02.056 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:12:02.077 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:12:02.088 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:12:05.663 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:12:05.679 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:12:08.716 +03:00 [INF] Handling request: GET /api/Meters/26
+2026-05-04 20:12:08.749 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:12:10.132 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:12:10.152 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:13:31.274 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:13:31.307 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:13:31.314 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:13:31.325 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:13:34.744 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:13:34.765 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:24:18.705 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:24:18.788 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 20:24:21.945 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 20:24:22.280 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 20:24:22.312 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:24:30.977 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:24:31.115 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:24:31.119 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:24:31.142 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:27:42.753 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:27:42.758 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 20:27:46.452 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 20:27:46.561 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 20:27:46.565 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:27:47.802 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:27:47.815 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:29:41.239 +03:00 [INF] Handling request: POST /api/Meters/import-excel
+2026-05-04 20:29:41.587 +03:00 [WRN] Row 8: Empty serial number
+2026-05-04 20:29:41.591 +03:00 [WRN] Row 9: Empty serial number
+2026-05-04 20:29:41.593 +03:00 [WRN] Row 10: Empty serial number
+2026-05-04 20:29:41.598 +03:00 [WRN] Row 11: Empty serial number
+2026-05-04 20:29:41.827 +03:00 [INF] Bulk meters created successfully. Total meters: 6
+2026-05-04 20:29:41.833 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:29:41.853 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:29:41.860 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:29:49.138 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:29:49.146 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:30:40.579 +03:00 [INF] Handling request: POST /api/Meters/import-excel
+2026-05-04 20:30:40.603 +03:00 [WRN] Row 4: Empty serial number
+2026-05-04 20:30:40.605 +03:00 [WRN] Row 5: Empty serial number
+2026-05-04 20:30:40.609 +03:00 [WRN] Row 6: Empty serial number
+2026-05-04 20:30:40.614 +03:00 [WRN] Row 7: Empty serial number
+2026-05-04 20:30:40.617 +03:00 [WRN] Row 8: Empty serial number
+2026-05-04 20:30:40.619 +03:00 [WRN] Row 9: Empty serial number
+2026-05-04 20:30:40.621 +03:00 [WRN] Row 10: Empty serial number
+2026-05-04 20:30:40.623 +03:00 [WRN] Row 11: Empty serial number
+2026-05-04 20:30:40.658 +03:00 [INF] Bulk meters created successfully. Total meters: 2
+2026-05-04 20:30:40.662 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:30:40.672 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:30:40.682 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:33:11.044 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:33:11.052 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:35:30.538 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 20:35:31.000 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 20:35:31.030 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:35:35.738 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:35:35.882 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:35:35.887 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:35:35.909 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:35:38.218 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:35:38.237 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:36:02.029 +03:00 [INF] Handling request: POST /api/Meters/import-excel
+2026-05-04 20:36:02.318 +03:00 [WRN] Row 4: Empty serial number
+2026-05-04 20:36:02.321 +03:00 [WRN] Row 5: Empty serial number
+2026-05-04 20:36:02.326 +03:00 [WRN] Row 6: Empty serial number
+2026-05-04 20:36:02.329 +03:00 [WRN] Row 7: Empty serial number
+2026-05-04 20:36:02.330 +03:00 [WRN] Row 8: Empty serial number
+2026-05-04 20:36:02.331 +03:00 [WRN] Row 9: Empty serial number
+2026-05-04 20:36:02.332 +03:00 [WRN] Row 10: Empty serial number
+2026-05-04 20:36:02.333 +03:00 [WRN] Row 11: Empty serial number
+2026-05-04 20:36:02.405 +03:00 [WRN] Duplicate serial number found in database: MTR0028
+2026-05-04 20:36:02.410 +03:00 [WRN] Duplicate serial number found in database: MTR0029
+2026-05-04 20:36:02.416 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:36:02.431 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:36:02.439 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:36:09.464 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:36:09.476 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:36:14.667 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:36:14.676 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:36:18.249 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:36:18.258 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:36:18.261 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:36:18.271 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:36:19.872 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:36:19.882 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:36:22.598 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:36:22.614 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:36:24.727 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:36:24.737 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:37:21.522 +03:00 [INF] Handling request: POST /api/Meters/import-excel
+2026-05-04 20:37:21.568 +03:00 [WRN] Row 3: Empty serial number
+2026-05-04 20:37:21.570 +03:00 [WRN] Row 4: Empty serial number
+2026-05-04 20:37:21.582 +03:00 [WRN] Row 5: Empty serial number
+2026-05-04 20:37:21.583 +03:00 [WRN] Row 6: Empty serial number
+2026-05-04 20:37:21.584 +03:00 [WRN] Row 7: Empty serial number
+2026-05-04 20:37:21.586 +03:00 [WRN] Row 8: Empty serial number
+2026-05-04 20:37:21.587 +03:00 [WRN] Row 9: Empty serial number
+2026-05-04 20:37:21.588 +03:00 [WRN] Row 10: Empty serial number
+2026-05-04 20:37:21.589 +03:00 [WRN] Row 11: Empty serial number
+2026-05-04 20:37:21.834 +03:00 [INF] Bulk meters created successfully. Total meters: 1
+2026-05-04 20:37:21.836 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:37:21.847 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:37:21.854 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:37:28.326 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:37:28.334 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:37:55.515 +03:00 [INF] Handling request: POST /api/Meters/import-excel
+2026-05-04 20:37:55.540 +03:00 [WRN] Row 3: Empty serial number
+2026-05-04 20:37:55.543 +03:00 [WRN] Row 4: Empty serial number
+2026-05-04 20:37:55.545 +03:00 [WRN] Row 5: Empty serial number
+2026-05-04 20:37:55.548 +03:00 [WRN] Row 6: Empty serial number
+2026-05-04 20:37:55.553 +03:00 [WRN] Row 7: Empty serial number
+2026-05-04 20:37:55.557 +03:00 [WRN] Row 8: Empty serial number
+2026-05-04 20:37:55.558 +03:00 [WRN] Row 9: Empty serial number
+2026-05-04 20:37:55.561 +03:00 [WRN] Row 10: Empty serial number
+2026-05-04 20:37:55.562 +03:00 [WRN] Row 11: Empty serial number
+2026-05-04 20:37:55.588 +03:00 [INF] Bulk meters created successfully. Total meters: 1
+2026-05-04 20:37:55.592 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:37:55.604 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:37:55.611 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:37:59.318 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:37:59.331 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:38:10.748 +03:00 [INF] Handling request: POST /api/Meters/import-excel
+2026-05-04 20:38:10.766 +03:00 [WRN] Row 3: Empty serial number
+2026-05-04 20:38:10.767 +03:00 [WRN] Row 4: Empty serial number
+2026-05-04 20:38:10.769 +03:00 [WRN] Row 5: Empty serial number
+2026-05-04 20:38:10.774 +03:00 [WRN] Row 6: Empty serial number
+2026-05-04 20:38:10.776 +03:00 [WRN] Row 7: Empty serial number
+2026-05-04 20:38:10.779 +03:00 [WRN] Row 8: Empty serial number
+2026-05-04 20:38:10.784 +03:00 [WRN] Row 9: Empty serial number
+2026-05-04 20:38:10.787 +03:00 [WRN] Row 10: Empty serial number
+2026-05-04 20:38:10.788 +03:00 [WRN] Row 11: Empty serial number
+2026-05-04 20:38:10.801 +03:00 [WRN] Duplicate serial number found in database: MTR0031
+2026-05-04 20:38:10.806 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:38:10.818 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:38:10.822 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:38:30.779 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:38:30.797 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:38:30.802 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:38:30.812 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:38:35.129 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:38:35.150 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:38:35.152 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:38:35.164 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:38:37.599 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:38:37.608 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:38:41.040 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:38:41.050 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:22.920 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:22.939 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:25.229 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:25.235 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:26.002 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:26.008 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:26.171 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:26.183 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:30.207 +03:00 [INF] Handling request: GET /api/Meters/10
+2026-05-04 20:42:30.236 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:32.087 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:32.095 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:40.999 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:41.007 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:41.822 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:41.829 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:42.006 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:42.012 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:42:57.631 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:42:57.637 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 20:43:00.271 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 20:43:00.416 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 20:43:00.419 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:43:02.500 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:43:02.516 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:46:32.623 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:46:32.635 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:48:40.524 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:48:40.534 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:48:44.690 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:48:44.698 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:49:19.779 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 20:49:20.136 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 20:49:20.168 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:49:22.228 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:49:22.394 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:49:22.397 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:49:22.421 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:50:09.830 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:50:09.850 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:50:09.852 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 20:50:09.860 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:50:12.306 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:50:12.327 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:50:14.692 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:50:14.700 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:50:18.364 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:50:18.375 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:50:19.031 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:50:19.042 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:58:35.486 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:58:35.515 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:59:53.878 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:59:53.885 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 20:59:56.356 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 20:59:56.467 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 20:59:56.471 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 20:59:57.879 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 20:59:57.896 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:00:01.974 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 21:00:02.045 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:00:07.097 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:00:11.144 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:01:08.103 +03:00 [INF] Handling request: GET /api/Meters/7
+2026-05-04 21:01:08.112 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:02:42.047 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:02:42.050 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 21:02:44.750 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 21:02:44.896 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 21:02:44.901 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:02:46.332 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:02:46.369 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:02:50.149 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:02:50.159 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:02:54.666 +03:00 [INF] Handling request: GET /api/Meters/39
+2026-05-04 21:02:54.673 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:02:57.526 +03:00 [INF] Handling request: DELETE /api/Meters/Soft/39
+2026-05-04 21:02:57.664 +03:00 [INF] Meter soft deleted: 39
+2026-05-04 21:02:57.669 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:02:57.683 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:02:57.701 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:02:59.913 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:02:59.921 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:03:03.384 +03:00 [INF] Handling request: GET /api/Meters/39
+2026-05-04 21:03:03.393 +03:00 [WRN] Meter not found: 39
+2026-05-04 21:03:03.397 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 21:03:03.464 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 21:03:07.104 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:03:07.112 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:03:28.716 +03:00 [INF] Handling request: GET /api/Meters/39
+2026-05-04 21:03:28.721 +03:00 [WRN] Meter not found: 39
+2026-05-04 21:03:28.725 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 21:03:28.764 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 21:04:21.726 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:04:21.737 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:04:27.951 +03:00 [INF] Handling request: GET /api/Meters/38
+2026-05-04 21:04:27.959 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:04:30.077 +03:00 [INF] Handling request: DELETE /api/Meters/38
+2026-05-04 21:04:30.123 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:04:30.133 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:04:30.140 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:04:35.205 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:04:35.215 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:32:57.305 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 21:32:57.881 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 21:32:57.913 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:32:59.471 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:32:59.667 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 21:32:59.671 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 21:32:59.698 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:33:07.317 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 21:33:07.371 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:42:55.205 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:42:55.243 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:42:55.923 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:42:55.929 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:43:00.842 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 21:43:00.868 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:43:02.962 +03:00 [INF] Handling request: DELETE /api/Meters/Soft/3
+2026-05-04 21:43:03.111 +03:00 [INF] Meter soft deleted: 3
+2026-05-04 21:43:03.113 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:43:03.124 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:43:03.129 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:43:08.981 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 21:43:08.987 +03:00 [WRN] Meter not found: 3
+2026-05-04 21:43:08.991 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 21:43:09.054 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 21:43:14.794 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:43:14.804 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:43:22.210 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 21:43:22.231 +03:00 [WRN] Meter not found: 3
+2026-05-04 21:43:22.234 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 21:43:22.251 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 21:43:24.034 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:43:24.055 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:43:46.470 +03:00 [INF] Handling request: GET /api/Meters/7
+2026-05-04 21:43:46.480 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:43:47.768 +03:00 [INF] Handling request: DELETE /api/Meters/7
+2026-05-04 21:43:47.808 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:43:47.818 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:43:47.825 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:59:56.588 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:59:56.607 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 21:59:58.086 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 21:59:58.255 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:00:02.584 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 22:00:02.637 +03:00 [WRN] Meter not found: 2
+2026-05-04 22:00:02.640 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:00:02.666 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:01:35.861 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:01:36.252 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:01:36.287 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:01:44.770 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:01:44.913 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:01:44.918 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:01:44.941 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:01:48.648 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:01:48.681 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:01:48.688 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:01:48.713 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:01:53.770 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:01:53.794 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:02:13.269 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:02:13.285 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:02:15.940 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:02:15.956 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:02:15.958 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:02:15.977 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:02:54.018 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:02:54.027 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:02:55.492 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:02:55.503 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:02:58.310 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:02:58.318 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:02:58.320 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:02:58.338 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:08:31.319 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:08:31.408 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:08:33.585 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:08:33.874 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:08:33.896 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:08:35.433 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:08:35.635 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:08:35.637 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:08:35.667 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:08:40.667 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:08:40.706 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:08:40.712 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:08:40.746 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:08:42.973 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:08:42.994 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:08:45.644 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:08:45.650 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:08:45.654 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:08:45.679 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:16:49.983 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:16:49.985 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:16:52.406 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:16:52.581 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:16:52.584 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:16:54.062 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:16:54.079 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:18:03.211 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:18:03.224 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:18:03.229 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:18:03.250 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:18:39.001 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:18:39.009 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:18:48.775 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:18:48.790 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:18:48.792 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:18:48.811 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:28:24.659 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:28:25.003 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:28:25.029 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:28:34.114 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:28:34.250 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:28:34.256 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:28:34.277 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:29:02.190 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:29:02.226 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:29:02.230 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:29:02.261 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:29:02.274 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:29:02.298 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:29:05.625 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:29:05.631 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:29:05.635 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:29:05.659 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:29:08.313 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:29:08.325 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:29:13.891 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:29:13.897 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:29:13.900 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:29:13.924 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:29:13.933 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:29:13.942 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:29:23.409 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:29:23.423 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:29:23.425 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:29:23.444 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:29:25.351 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:29:25.359 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:29:29.505 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:29:29.509 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:29:29.512 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:29:29.537 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:29:29.546 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:29:29.555 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:29:34.514 +03:00 [INF] Handling request: GET /api/Meters/5
+2026-05-04 22:29:34.546 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:29:36.536 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:29:36.543 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:31:12.154 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:31:12.165 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:31:12.169 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:31:12.180 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:31:14.532 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:31:14.556 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:31:18.605 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:31:18.612 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:32:27.790 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:32:27.801 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:32:32.601 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:32:32.607 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:32:53.538 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:32:53.548 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:32:56.699 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:32:56.857 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:32:56.859 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:32:58.172 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:32:58.180 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:33:10.441 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:33:10.465 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:33:10.467 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:33:10.474 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:33:15.981 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:33:15.988 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:33:15.989 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:33:16.014 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:33:32.388 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:33:32.391 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:33:42.404 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:33:42.411 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:33:45.739 +03:00 [INF] Handling request: GET /api/Meters/14
+2026-05-04 22:33:45.745 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:33:47.784 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:33:47.793 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:33:54.764 +03:00 [INF] Handling request: GET /api/Meters/8
+2026-05-04 22:33:54.770 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:33:56.144 +03:00 [INF] Handling request: DELETE /api/Meters/8
+2026-05-04 22:33:56.281 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:33:56.290 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:33:56.297 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:34:00.959 +03:00 [INF] Handling request: GET /api/Meters/5
+2026-05-04 22:34:00.964 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:34:03.666 +03:00 [INF] Handling request: DELETE /api/Meters/Soft/5
+2026-05-04 22:34:03.697 +03:00 [INF] Meter soft deleted: 5
+2026-05-04 22:34:03.700 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:34:03.711 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:34:03.717 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:34:09.535 +03:00 [INF] Handling request: GET /api/Meters/5
+2026-05-04 22:34:09.546 +03:00 [WRN] Meter not found: 5
+2026-05-04 22:34:09.549 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:34:09.574 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:34:11.048 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:34:11.060 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:34:59.192 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:34:59.194 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:35:05.511 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:35:05.704 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:35:05.706 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:35:07.510 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:35:07.523 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:35:18.346 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:35:18.356 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:35:28.449 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:35:28.454 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:35:41.658 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:35:41.663 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:35:44.354 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:35:44.473 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:35:44.479 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:35:45.847 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:35:45.855 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:35:49.685 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:35:49.692 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:35:49.696 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:35:49.709 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:35:51.599 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:35:51.642 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:35:56.000 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 22:35:56.004 +03:00 [WRN] Meter not found: 2
+2026-05-04 22:35:56.005 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:35:56.024 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:35:57.659 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:35:57.666 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:36:01.662 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-04 22:36:01.667 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:36:03.221 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:36:03.230 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:36:30.893 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:36:31.003 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:36:31.008 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:36:46.517 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:36:46.522 +03:00 [WRN] Meter not found: 3
+2026-05-04 22:36:46.525 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:36:46.565 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:36:52.007 +03:00 [INF] Handling request: GET /api/Meters/4
+2026-05-04 22:36:52.014 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:37:01.604 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 22:37:01.607 +03:00 [WRN] Meter not found: 2
+2026-05-04 22:37:01.611 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:37:01.651 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:37:55.612 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:37:55.618 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:37:59.370 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:37:59.545 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:37:59.547 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:01.504 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:01.518 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:06.300 +03:00 [INF] Handling request: POST /api/Meters/Restore/2
+2026-05-04 22:38:06.311 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: Meter Not Found
+   at MeterManagement.Application.Services.Services.MeterService.Restore(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 365
+   at MeterManagement.API.Controllers.MetersController.Restore(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 109
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:38:06.327 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:38:06.337 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:06.341 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:08.359 +03:00 [INF] Handling request: POST /api/Meters/Restore/2
+2026-05-04 22:38:08.368 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: Meter Not Found
+   at MeterManagement.Application.Services.Services.MeterService.Restore(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 365
+   at MeterManagement.API.Controllers.MetersController.Restore(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 109
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:38:08.386 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:38:08.412 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:08.427 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:09.990 +03:00 [INF] Handling request: POST /api/Meters/Restore/2
+2026-05-04 22:38:09.994 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: Meter Not Found
+   at MeterManagement.Application.Services.Services.MeterService.Restore(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 365
+   at MeterManagement.API.Controllers.MetersController.Restore(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 109
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:38:10.009 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:38:10.020 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:10.025 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:12.132 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 22:38:12.136 +03:00 [WRN] Meter not found: 2
+2026-05-04 22:38:12.138 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:38:12.159 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:38:12.171 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:12.178 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:14.538 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 22:38:14.543 +03:00 [WRN] Meter not found: 2
+2026-05-04 22:38:14.545 +03:00 [ERR] Unhandled exception
+MeterManagement.Application.Exceptions.BusinessException: MeterNotFound
+   at MeterManagement.Application.Services.Services.MeterService.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\MeterService.cs:line 109
+   at MeterManagement.API.Controllers.MetersController.GetById(Int32 id) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\MetersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 12
+2026-05-04 22:38:14.562 +03:00 [INF] Finished handling request with status code: 500
+2026-05-04 22:38:16.394 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:16.401 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:33.547 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:33.555 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:34.531 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:34.538 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:41.910 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:41.917 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:38:55.645 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:38:55.735 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:38:59.546 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:38:59.923 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:38:59.955 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:39:01.368 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:39:01.549 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:39:01.551 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:39:01.578 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:39:07.298 +03:00 [INF] Handling request: GET /api/Meters/6
+2026-05-04 22:39:07.364 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:39:08.711 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:39:08.753 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:39:30.901 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:39:30.918 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:41:35.917 +03:00 [INF] Handling request: GET /api/Meters/5
+2026-05-04 22:41:35.932 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:41:37.790 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:41:37.804 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:41:55.772 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:41:55.783 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:47:46.313 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:47:46.316 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 22:47:48.944 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 22:47:49.118 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 22:47:49.120 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:47:50.325 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:47:50.334 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:47:55.614 +03:00 [INF] Handling request: GET /api/Meters/2
+2026-05-04 22:47:55.626 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:47:56.985 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:47:56.997 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:48:04.364 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:48:04.371 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:48:04.373 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:48:04.381 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:48:07.307 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:48:07.317 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:48:09.530 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:48:09.535 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:48:13.495 +03:00 [INF] Handling request: GET /api/Meters/33
+2026-05-04 22:48:13.501 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:48:14.761 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:48:14.771 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:09.968 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:09.977 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:13.551 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:13.567 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:50:13.571 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:50:13.581 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:16.527 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:16.536 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:19.212 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:19.219 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:21.663 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:21.669 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:25.248 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:25.269 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:50:25.271 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 22:50:25.280 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:29.716 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:29.727 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:33.178 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:33.187 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:36.167 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 22:50:36.175 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:37.793 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:37.800 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:46.425 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 22:50:46.444 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:50:47.812 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:50:47.832 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:51:22.634 +03:00 [INF] Handling request: POST /api/Meters/add-meter
+2026-05-04 22:51:22.833 +03:00 [INF] Meter created 123456789
+2026-05-04 22:51:22.836 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:51:22.844 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:51:22.851 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:51:26.042 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:51:26.052 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:51:29.406 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:51:29.412 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:54:33.902 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-04 22:54:33.909 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:54:35.418 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:54:35.424 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:54:38.202 +03:00 [INF] Handling request: GET /api/Meters/5
+2026-05-04 22:54:38.208 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 22:54:40.981 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 22:54:40.989 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:08:25.532 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:08:25.553 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:08:28.551 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:08:28.565 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:08:57.248 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:08:57.251 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:09:02.948 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:09:03.100 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:09:03.102 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:09:04.697 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:09:04.703 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:09:08.948 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:09:08.969 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:09:10.547 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:09:10.553 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:09:17.206 +03:00 [INF] Handling request: PUT /api/Meters/1
+2026-05-04 23:09:17.239 +03:00 [INF] Meter updated: 1
+2026-05-04 23:09:17.244 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:09:17.255 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:09:17.264 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:09:21.199 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:09:21.205 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:09:24.741 +03:00 [INF] Handling request: PUT /api/Meters/1
+2026-05-04 23:09:24.748 +03:00 [INF] Meter updated: 1
+2026-05-04 23:09:24.749 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:09:24.761 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:09:24.765 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:10:24.115 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:10:24.125 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:10:25.523 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:10:25.531 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:10:53.069 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:10:53.082 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:11:47.306 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:11:47.313 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:12:00.762 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:12:00.764 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:12:04.105 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:12:04.230 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:12:04.233 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:12:05.393 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:12:05.397 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:12:08.226 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:12:08.253 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:12:09.901 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:12:09.911 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:12:15.578 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:12:15.584 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:12:19.768 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:12:19.774 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:12:21.515 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:12:21.524 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:12:55.361 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:12:55.379 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:14:34.781 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:14:35.229 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:14:35.256 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:14:36.882 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:14:37.095 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 23:14:37.099 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 23:14:37.129 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:15:01.768 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:15:01.787 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:15:20.959 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:15:20.967 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:15:23.913 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:15:24.025 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:15:24.027 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:15:25.358 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:15:25.391 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:16:34.691 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:16:34.707 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:17:35.566 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:17:35.577 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:17:50.466 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:17:50.469 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:17:53.229 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:17:53.380 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:17:53.382 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:17:54.723 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:17:54.729 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:18:12.389 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:18:12.394 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:18:14.105 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:18:14.155 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:18:15.724 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:18:15.733 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:18:28.859 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:18:28.873 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:18:46.258 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:18:46.263 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:18:53.879 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:18:53.887 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:19:16.976 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:19:16.990 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:19:31.888 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:19:31.918 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:21:33.563 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:21:33.565 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:21:35.910 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:21:36.110 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:21:36.122 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:21:37.737 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:21:37.748 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:22:27.470 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:22:27.480 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:22:31.318 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:22:31.332 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:22:33.306 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:22:33.316 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:24:09.594 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:24:09.596 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:24:11.865 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:24:12.005 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:24:12.007 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:24:14.433 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:24:14.448 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:24:22.996 +03:00 [INF] Handling request: GET /api/Meters/1
+2026-05-04 23:24:23.007 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:24:24.619 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:24:24.624 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:26:06.070 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:26:06.079 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:26:23.074 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:26:23.076 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:26:26.522 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:26:26.710 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:26:26.715 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:26:28.072 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:26:28.078 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:27:11.023 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:27:11.059 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:27:26.022 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:27:26.029 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:27:31.531 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:27:31.539 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:27:46.532 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:27:46.535 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:27:49.168 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:27:49.288 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:27:49.290 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:27:50.933 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:27:50.940 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:28:06.746 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:28:06.754 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:28:49.685 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:28:49.772 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:28:52.969 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:28:53.336 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:28:53.364 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:28:54.741 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:28:54.925 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 23:28:54.929 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 23:28:54.963 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:29:15.358 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:29:15.383 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:29:51.371 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:29:51.391 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:30:59.422 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-04 23:30:59.504 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:31:02.204 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:31:02.552 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-04 23:31:02.578 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:31:35.983 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:31:36.124 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:31:36.127 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:45:23.455 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:45:23.884 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:45:23.914 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:45:25.555 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:45:25.671 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-04 23:45:25.677 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:46:27.977 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:46:28.021 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-04 23:46:28.024 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:47:15.824 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:47:15.842 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-04 23:47:15.845 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:47:47.770 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:47:47.783 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-04 23:47:47.785 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:47:50.168 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:47:50.182 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-04 23:47:50.184 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:47:56.797 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:47:56.811 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-04 23:47:56.813 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:48:14.768 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:48:14.778 +03:00 [INF] Finished handling request with status code: 401
+2026-05-04 23:48:17.910 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-04 23:48:18.091 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-04 23:48:18.093 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:48:19.519 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:48:19.535 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-04 23:48:19.540 +03:00 [INF] Finished handling request with status code: 200
+2026-05-04 23:48:57.087 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-04 23:48:57.107 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-04 23:48:57.111 +03:00 [INF] Finished handling request with status code: 200

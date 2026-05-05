@@ -14,6 +14,8 @@ namespace MeterManagement.Domain.IRepo
         Task Update(Meter meter);
         Task<List<Meter>> GetByUserId(string userId);
         Task<List<Meter>> GetByStatus(MeterStatus status);
+        Task Restore(Meter meter);
+        IQueryable<Meter> GetQueryable();
         Task Delete(Meter meter);
         Task SoftDelete(Meter meter);
         Task Save();

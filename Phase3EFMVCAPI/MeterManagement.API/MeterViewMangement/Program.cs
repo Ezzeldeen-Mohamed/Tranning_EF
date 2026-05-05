@@ -1,4 +1,6 @@
+using MeterViewMangement.Controllers;
 using MeterViewMangement.Http;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text.Json.Serialization;
 
@@ -7,9 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddHttpClient<MeterController>();
 
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddAuthorization();
 builder.Services.AddTransient<AuthHandler>();
 
 builder.Services.AddHttpClient("api", client =>
@@ -24,6 +28,12 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
     });
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Auth/Login";
+        options.AccessDeniedPath = "/Auth/AccessDenied";
+    });
 
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 

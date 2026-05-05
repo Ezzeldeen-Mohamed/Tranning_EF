@@ -8,5 +8,6 @@ namespace MeterManagement.Application.Services.IService
         Task<bool> Register(RegisterDto dto);
         Task<bool> ChangeUserRole(ChangeRoleDto dto, string currentAdminId);
         Task<List<UserDto>> GetAllUsers();
+        Task<UserDto> GetByEmail(string email);
     }
 }

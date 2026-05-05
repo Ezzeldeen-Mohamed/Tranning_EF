@@ -17,8 +17,6 @@
         public int Id { get; set; }
         public string SerialNumber { get; set; }
         public string Status { get; set; }
-
-
     }
     public class ImportResultDto
     {

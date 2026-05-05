@@ -1,0 +1,84 @@
+﻿<div class="container py-5">
+    <h2 class="mb-4 text-primary"><i class="fas fa-user-shield"></i> Admin Control Panel</h2>
+    <hr />
+
+    <div class="row g-4">
+        <!-- إدارة العدادات -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="fas fa-tachometer-alt fa-3x text-info mb-3"></i>
+                    <h5 class="card-title">Meters Management</h5>
+                    <p class="card-text text-muted">View, Edit, and Delete all meters in the system.</p>
+                    <a asp-controller="Meter" asp-action="GetAll" class="btn btn-info w-100 text-white">Go to Meters</a>
+                </div>
+            </div>
+        </div>
+        <!-- إدارة المستخدمين -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Users List</h5>
+                    <p class="card-text text-muted">View all users and change their roles (Admin/Agent).</p>
+                    <a asp-controller="Admin" asp-action="Index" class="btn btn-primary w-100">Manage Users</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- إضافة عداد جديد -->
+        <div class="card h-100 shadow-sm border-0 text-white bg-dark">
+            <div class="card-body text-center d-flex flex-column justify-content-center">
+                <i class="fas fa-plus-circle fa-3x mb-3 text-warning"></i>
+                <h5 class="card-title">Registration Hub</h5>
+                <p class="card-text small text-light-50">Choose your preferred method to add new hardware.</p>
+                <div class="d-grid gap-2">
+                    <a asp-controller="Meter" asp-action="Create" class="btn btn-outline-light">
+                        <i class="fas fa-keyboard me-2"></i>Manual Entry
+                    </a>
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <a asp-controller="Meter" asp-action="CreateBulk" class="btn btn-warning btn-sm w-100">
+                                <i class="fas fa-list"></i> Bulk Text
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-success btn-sm w-100" data-bs-toggle="modal" data-bs-target="#importExcelModal">
+                                <i class="fas fa-file-excel"></i> Excel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal لرفع ملف الإكسيل -->
+<div class="modal fade" id="importExcelModal" tabindex="-1" aria-labelledby="importExcelModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title" id="importExcelModalLabel"><i class="fas fa-file-excel me-2"></i>Import Meters from Excel</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-controller="Meter" asp-action="ImportExcel" method="post" enctype="multipart/form-data">
+                <div class="modal-body p-4">
+                    <div class="mb-3">
+                        <label for="excelFile" class="form-label fw-bold">Select Excel File (.xlsx)</label>
+                        <input type="file" name="file" id="excelFile" class="form-control" accept=".xlsx, .xls" required />
+                        <div class="form-text mt-2">
+                            System expects the first column to be the <strong>Serial Number</strong>.
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success px-4">
+                        <i class="fas fa-cloud-upload-alt me-1"></i> Start Upload
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

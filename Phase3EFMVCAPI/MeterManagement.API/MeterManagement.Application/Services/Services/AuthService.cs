@@ -170,6 +170,26 @@ namespace MeterManagement.Application.Services.Services
             _logger.LogInformation("Retrieved all users successfully. Total users: {UserCount}", result.Count);
             return result;
         }
+        public async Task<UserDto> GetByEmail(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+
+            if (user == null)
+            {
+                _logger.LogWarning("User with email {Email} not found", email);
+                throw new BusinessException(_localization.GetString("UserNotFound"));
+            }
+
+            var roles = await _userManager.GetRolesAsync(user);
+
+            return new UserDto
+            {
+                Id = user.Id,
+                Email = user.Email,
+                FullName = user.FullName,
+                Role = roles.FirstOrDefault() ?? "No Role"
+            };
+        }
 
     }
 }

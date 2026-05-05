@@ -1,0 +1,67 @@
+﻿@model List<UserViewModel>
+
+<div class="container py-4 animate slideIn">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold"><i class="fas fa-users-cog me-2 text-primary"></i>User Management</h2>
+        <span class="badge bg-primary rounded-pill px-3 py-2">Total Users: @Model.Count</span>
+    </div>
+
+    <div class="card shadow-sm border-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="ps-4">Full Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th class="text-center">Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td class="ps-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar-circle me-3">@user.FullName[0]</div>
+                                    <span class="fw-bold">@user.FullName</span>
+                                </div>
+                            </td>
+                            <td>@user.Email</td>
+                            <td>
+                                <span class="badge rounded-pill @(user.Role == "Admin" ? "bg-danger" : "bg-info text-dark")">
+                                    @user.Role
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <a asp-action="Details" asp-route-email="@user.Email" class="btn btn-sm btn-outline-primary rounded-pill px-4 shadow-sm">
+                                    <i class="fas fa-user-cog me-1"></i> Manage / Details
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<style>
+    .avatar-circle {
+        width: 35px;
+        height: 35px;
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f8f9fa;
+        transition: 0.3s;
+    }
+</style>

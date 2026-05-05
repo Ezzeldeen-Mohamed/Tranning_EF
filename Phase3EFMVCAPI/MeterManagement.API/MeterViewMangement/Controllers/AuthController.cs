@@ -1,5 +1,7 @@
 ﻿using MeterViewMangement.Helpers;
 using MeterViewMangement.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -18,6 +20,11 @@ namespace MeterViewMangement.Controllers
 
         public IActionResult Index()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                if (User.IsInRole("Admin")) return RedirectToAction("Dashboard", "Admin");
+                if (User.IsInRole("Agent")) return RedirectToAction("Dashboard", "Agent");
+            }
             return View();
         }
 
@@ -26,7 +33,6 @@ namespace MeterViewMangement.Controllers
         {
             return View("Login");
         }
-
 
         [HttpPost]
         public async Task<IActionResult> LoginFun(LoginViewModel model)
@@ -45,7 +51,7 @@ namespace MeterViewMangement.Controllers
 
             if (!response.IsSuccessStatusCode)
             {
-                ModelState.AddModelError("", "Login failed");
+                ModelState.AddModelError("", "Login failed: Email or Password incorrect");
                 return View("Login", model);
             }
 
@@ -57,15 +63,23 @@ namespace MeterViewMangement.Controllers
             var handler = new JwtSecurityTokenHandler();
             var jwtToken = handler.ReadJwtToken(token);
 
-            var roles = jwtToken.Claims.Where(c => c.Type == ClaimTypes.Role || c.Type == "role").Select(c => c.Value).ToList();
+            var claims = jwtToken.Claims.ToList();
+
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+
+            var roles = claims.Where(c => c.Type == ClaimTypes.Role || c.Type == "role")
+                              .Select(c => c.Value).ToList();
 
             if (roles.Contains("Admin"))
             {
-                return RedirectToAction("GetAll", "Meter");
+                return RedirectToAction("Dashboard", "Admin");
             }
             else if (roles.Contains("Agent"))
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Dashboard", "Agent");
             }
 
             return RedirectToAction("Index", "Home");
@@ -123,6 +137,16 @@ namespace MeterViewMangement.Controllers
             }
 
             return RedirectToAction("Login");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            TokenStorage.Clear(HttpContext);
+
+            return RedirectToAction("Login", "Auth");
         }
     }
 }

@@ -1,0 +1,44 @@
+﻿@model MeterCreateViewModel
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-lg border-0 animate slideIn" style="border-radius: 15px;">
+                <div class="card-header bg-primary text-white py-3" style="border-radius: 15px 15px 0 0;">
+                    <h4 class="mb-0 text-center"><i class="fas fa-edit me-2"></i>Update Meter Serial</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Update" method="post">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <input type="hidden" name="id" value="@ViewContext.RouteData.Values["id"]" />
+
+                        <div class="mb-4">
+                            <label asp-for="SerialNumber" class="form-label fw-bold text-dark">Serial Number</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0"><i class="fas fa-barcode text-primary"></i></span>
+                                <input asp-for="SerialNumber" class="form-control form-control-lg border-start-0 shadow-none"
+                                       placeholder="Enter Serial Number" style="background-color: #f8f9fa;" />
+                            </div>
+                            <span asp-validation-for="SerialNumber" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg shadow-sm hover-up">
+                                <i class="fas fa-save me-1"></i> Update Changes
+                            </button>
+                            <a asp-action="GetAll" class="btn btn-link text-muted text-decoration-none">
+                                <i class="fas fa-arrow-left me-1"></i> Back to Inventory
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
