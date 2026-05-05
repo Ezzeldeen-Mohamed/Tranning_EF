@@ -14,6 +14,7 @@
                                     <i class="fas fa-cog me-1"></i> Actions
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 animate slideIn">
+
                                     @if (Model.Status?.ToString() == "OnStock")
                                     {
                                         <li>
@@ -112,13 +113,13 @@
                                         <form asp-action="Install" asp-controller="Agent" method="post" class="d-inline">
                                             @Html.AntiForgeryToken()
 
-                                                <input type="hidden" name="meterId" value="@Model.Id" />
+                                            <input type="hidden" name="meterId" value="@Model.Id" />
 
-                                                <button type="submit" class="btn btn-success px-4 shadow-sm">
-                                                    <i class="fas fa-tools me-2"></i> Install This Meter
-                                                </button>
-                                            </form>
-                                     }
+                                            <button type="submit" class="btn btn-success px-4 shadow-sm">
+                                                <i class="fas fa-tools me-2"></i> Install This Meter
+                                            </button>
+                                        </form>
+                                    }
                                 </div>
                             </div>
                         </div>
