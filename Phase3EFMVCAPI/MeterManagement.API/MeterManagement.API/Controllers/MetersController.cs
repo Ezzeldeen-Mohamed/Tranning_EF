@@ -36,7 +36,7 @@ namespace MeterManagement.API.Controllers
 
         [Authorize(Roles = Roles.Admin)]
         [HttpPost("add-meter")]
-        public async Task<IActionResult> Create([FromBody] MeterDto dto) // تأكد من وجود [FromBody]
+        public async Task<IActionResult> Create([FromBody] MeterDto dto)
         {
             if (dto == null || string.IsNullOrEmpty(dto.SerialNumber))
                 return BadRequest("Invalid data");
