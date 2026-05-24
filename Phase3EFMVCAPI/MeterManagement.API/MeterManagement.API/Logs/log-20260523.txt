@@ -1,0 +1,58 @@
+2026-05-23 00:05:03.032 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-23 00:05:04.249 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-23 00:05:04.414 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:05:36.741 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-23 00:05:37.088 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-23 00:05:37.095 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-23 00:05:37.163 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:06:59.724 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-23 00:07:00.420 +03:00 [INF] User with email admin@gmail.com logged in successfully
+2026-05-23 00:07:00.469 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:05.911 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-23 00:07:06.142 +03:00 [INF] Retrieved all users successfully. Total users: 9
+2026-05-23 00:07:06.151 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:13.059 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-23 00:07:13.122 +03:00 [INF] Retrieved all users successfully. Total users: 9
+2026-05-23 00:07:13.125 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:16.503 +03:00 [INF] Handling request: POST /api/Auth/ChangeRole
+2026-05-23 00:07:17.130 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:17.154 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-23 00:07:17.179 +03:00 [INF] Retrieved all users successfully. Total users: 9
+2026-05-23 00:07:17.183 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:22.808 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-23 00:07:23.025 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-23 00:07:23.036 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-23 00:07:23.101 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:28.780 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-23 00:07:28.812 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-23 00:07:28.814 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-23 00:07:28.828 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:32.470 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-23 00:07:32.494 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:35.326 +03:00 [INF] Handling request: GET /api/Meters/3
+2026-05-23 00:07:35.394 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 00:07:37.547 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-23 00:07:37.600 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 18:17:35.235 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-23 18:17:36.151 +03:00 [INF] User admin@gmail.com logged in successfully
+2026-05-23 18:17:36.209 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 18:17:48.018 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-23 18:17:48.410 +03:00 [INF] User admin@gmail.com logged in successfully
+2026-05-23 18:17:48.415 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 18:18:18.820 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-23 18:18:19.251 +03:00 [INF] User admin@gmail.com logged in successfully
+2026-05-23 18:18:19.258 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 18:18:58.786 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-23 18:18:59.113 +03:00 [INF] User admin@gmail.com logged in successfully
+2026-05-23 18:18:59.116 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 18:23:09.441 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-23 18:23:09.567 +03:00 [INF] User admin@gmail.com logged in successfully
+2026-05-23 18:23:09.570 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 18:23:11.341 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-23 18:23:11.487 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-23 18:23:11.491 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-23 18:23:11.523 +03:00 [INF] Finished handling request with status code: 200
+2026-05-23 18:23:30.808 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-23 18:23:30.825 +03:00 [INF] Finished handling request with status code: 401
+2026-05-23 18:24:00.947 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-23 18:24:00.976 +03:00 [INF] Finished handling request with status code: 200

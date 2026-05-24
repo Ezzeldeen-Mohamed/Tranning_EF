@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace MeterManagement.API.Models
+namespace MeterManagement.Domain.Models
 {
     public class User : IdentityUser
     {

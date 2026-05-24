@@ -29,7 +29,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MeterManagement.Domain\MeterManagement.Domain.csproj" />
-    <ProjectReference Include="..\MeterManagement.Infrastructure\MeterManagement.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

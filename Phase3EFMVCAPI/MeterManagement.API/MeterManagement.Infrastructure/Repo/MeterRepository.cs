@@ -1,6 +1,6 @@
-﻿using MeterManagement.API.Models;
-using MeterManagement.Domain.Enums;
+﻿using MeterManagement.Domain.Enums;
 using MeterManagement.Domain.IRepo;
+using MeterManagement.Domain.Models;
 using MeterManagement.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -35,7 +35,6 @@ namespace MeterManagement.Infrastructure.Repo
         {
             return await _context.Meters
                 .Where(m => m.UserId == userId && !m.IsDeleted)
-                .IgnoreQueryFilters()
                 .ToListAsync();
         }
 
@@ -75,7 +74,7 @@ namespace MeterManagement.Infrastructure.Repo
 
         public async Task Update(Meter meter)
         {
-            _context.Meters.Update(meter);
+             _context.Meters.Update(meter);
         }
 
         public async Task Delete(Meter meter)

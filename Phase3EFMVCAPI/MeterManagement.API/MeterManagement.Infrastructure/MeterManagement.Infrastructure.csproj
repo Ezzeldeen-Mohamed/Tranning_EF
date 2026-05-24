@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MeterManagement.Application\MeterManagement.Application.csproj" />
     <ProjectReference Include="..\MeterManagement.Domain\MeterManagement.Domain.csproj" />
   </ItemGroup>
 

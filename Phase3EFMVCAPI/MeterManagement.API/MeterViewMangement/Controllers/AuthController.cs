@@ -56,7 +56,7 @@ namespace MeterViewMangement.Controllers
             }
 
             var tokenObj = JsonSerializer.Deserialize<JsonElement>(result);
-            var token = tokenObj.GetProperty("token").GetString();
+            var token = tokenObj.GetProperty("data").GetString();
 
             TokenStorage.Save(HttpContext, token);
 

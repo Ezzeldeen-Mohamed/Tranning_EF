@@ -1,0 +1,131 @@
+2026-05-17 13:42:59.361 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-17 13:42:59.773 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-17 13:42:59.809 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 13:43:03.304 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-17 13:43:03.405 +03:00 [INF] Retrieved all users successfully. Total users: 8
+2026-05-17 13:43:03.411 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 13:44:31.852 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-17 13:44:31.876 +03:00 [WRN] Login attempt failed: User with email ezz@gmail.com not found
+2026-05-17 13:44:31.884 +03:00 [ERR] Invalid email or password
+MeterManagement.Application.Exceptions.BusinessException: Invalid email or password
+   at MeterManagement.Application.Services.Services.AuthService.Login(LoginDto dto) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.Application\Services\Services\AuthService.cs:line 69
+   at MeterManagement.API.Controllers.AuthController.Login(LoginDto dto) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Controllers\AuthController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at company_smart_charging_system.Middlewares.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\ezzm8\Desktop\SQL\RealProjects\Phase1\.NET\RealTranningProjectC#\Phase3EFMVCAPI\MeterManagement.API\MeterManagement.API\Middlewares\ExceptionHandlingMiddleware.cs:line 22
+2026-05-17 13:44:31.960 +03:00 [INF] Finished handling request with status code: 500
+2026-05-17 13:44:43.503 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-17 13:44:43.635 +03:00 [INF] User with email mohamed@gmail.com logged in successfully
+2026-05-17 13:44:43.638 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 13:44:52.533 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-17 13:44:52.600 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:02:40.668 +03:00 [INF] Handling request: POST /api/Auth/register
+2026-05-17 14:02:40.975 +03:00 [INF] User with email basil@gmail.com registered successfully
+2026-05-17 14:02:41.093 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:02:54.524 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-17 14:02:54.636 +03:00 [INF] User with email basil@gmail.com logged in successfully
+2026-05-17 14:02:54.639 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:03:03.060 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-17 14:03:03.072 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:03:18.475 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-17 14:03:18.609 +03:00 [INF] User with email taha@gmail.com logged in successfully
+2026-05-17 14:03:18.611 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:04:14.483 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-17 14:04:14.513 +03:00 [INF] Retrieved all users successfully. Total users: 9
+2026-05-17 14:04:14.517 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:04:29.115 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-17 14:04:29.136 +03:00 [INF] Retrieved all users successfully. Total users: 9
+2026-05-17 14:04:29.138 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:04:49.181 +03:00 [INF] Handling request: POST /api/Auth/ChangeRole
+2026-05-17 14:04:49.253 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:04:49.270 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-17 14:04:49.286 +03:00 [INF] Retrieved all users successfully. Total users: 9
+2026-05-17 14:04:49.289 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:05:42.876 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-17 14:05:42.902 +03:00 [INF] Retrieved all users successfully. Total users: 9
+2026-05-17 14:05:42.910 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:05:45.263 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:05:45.344 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-17 14:05:45.348 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-17 14:05:45.370 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:06:58.809 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-17 14:06:59.139 +03:00 [INF] User with email basil@gmail.com logged in successfully
+2026-05-17 14:06:59.141 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:07:03.296 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-17 14:07:03.306 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:07:41.235 +03:00 [INF] Handling request: POST /api/Meters/assign-meter
+2026-05-17 14:07:41.292 +03:00 [INF] Meter 9 assigned to basil@gmail.com
+2026-05-17 14:07:41.295 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:07:41.303 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:07:41.315 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:07:48.203 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-17 14:07:48.212 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:07:50.994 +03:00 [INF] Handling request: GET /api/Meters/9
+2026-05-17 14:07:51.007 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:08:19.377 +03:00 [INF] Handling request: POST /api/Meters/install
+2026-05-17 14:08:19.398 +03:00 [INF] Meter installed 9
+2026-05-17 14:08:19.402 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:08:19.416 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-17 14:08:19.424 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:08:23.895 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:08:23.912 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:08:28.149 +03:00 [INF] Handling request: GET /api/Meters/9
+2026-05-17 14:08:28.164 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:08:33.445 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-17 14:08:33.449 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:10:13.256 +03:00 [INF] Handling request: GET /api/Meters/9
+2026-05-17 14:10:13.266 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:10:17.739 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:10:17.750 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:11:13.860 +03:00 [INF] Handling request: GET /api/Meters/9
+2026-05-17 14:11:13.866 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:11:16.393 +03:00 [INF] Handling request: DELETE /api/Meters/9
+2026-05-17 14:11:16.418 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:11:16.426 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:11:16.431 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:11:27.679 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-17 14:11:27.687 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:12:01.361 +03:00 [INF] Handling request: POST /api/Meters/bulk
+2026-05-17 14:12:01.479 +03:00 [INF] Bulk meters created successfully. Total meters: 2
+2026-05-17 14:12:01.480 +03:00 [INF] Bulk meter creation completed. Rejected meters due to duplicates: 0
+2026-05-17 14:12:01.484 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:12:01.493 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:12:01.500 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:12:04.280 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:12:04.290 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:13:24.367 +03:00 [INF] Handling request: POST /api/Meters/import-excel
+2026-05-17 14:13:24.739 +03:00 [WRN] Row 4: Empty serial number
+2026-05-17 14:13:24.741 +03:00 [WRN] Row 5: Empty serial number
+2026-05-17 14:13:24.744 +03:00 [WRN] Row 6: Empty serial number
+2026-05-17 14:13:24.746 +03:00 [WRN] Row 7: Empty serial number
+2026-05-17 14:13:24.747 +03:00 [WRN] Row 8: Empty serial number
+2026-05-17 14:13:24.749 +03:00 [WRN] Row 9: Empty serial number
+2026-05-17 14:13:24.750 +03:00 [WRN] Row 10: Empty serial number
+2026-05-17 14:13:24.751 +03:00 [WRN] Row 11: Empty serial number
+2026-05-17 14:13:24.781 +03:00 [INF] Bulk meters created successfully. Total meters: 2
+2026-05-17 14:13:24.787 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:13:24.803 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:13:24.810 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:13:27.621 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:13:27.629 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:15:11.245 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:15:11.270 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-17 14:15:11.273 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-17 14:15:11.285 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:15:14.034 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:15:14.045 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:15:17.291 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:15:17.300 +03:00 [INF] Finished handling request with status code: 200
+2026-05-17 14:15:24.260 +03:00 [INF] Handling request: GET /api/Meters
+2026-05-17 14:15:24.285 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-17 14:15:24.288 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-17 14:15:24.294 +03:00 [INF] Finished handling request with status code: 200

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MeterManagement.API.Models
+namespace MeterManagement.Domain.Models
 {
     public class Meter
     {

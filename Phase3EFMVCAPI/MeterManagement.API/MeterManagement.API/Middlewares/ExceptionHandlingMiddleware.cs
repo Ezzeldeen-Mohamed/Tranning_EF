@@ -1,6 +1,7 @@
-﻿using MeterManagement.Application.Exceptions;
+﻿using MeterManagement.Application.Common;
+using MeterManagement.Application.Exceptions;
 
-namespace company_smart_charging_system.Middlewares
+namespace MeterManagement.API.Middlewares
 {
     public class ExceptionHandlingMiddleware
     {
@@ -15,7 +16,7 @@ namespace company_smart_charging_system.Middlewares
             _logger = logger;
         }
 
-        public async Task Invoke(HttpContext context)
+        public async Task InvokeAsync(HttpContext context)
         {
             try
             {
@@ -23,40 +24,63 @@ namespace company_smart_charging_system.Middlewares
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, ex.Message);
+                _logger.LogError(
+                    ex,
+                    "Unhandled exception occurred");
 
-                context.Response.ContentType = "application/json";
+                context.Response.ContentType =
+                    "application/json";
 
-                int statusCode = StatusCodes.Status500InternalServerError;
-                string message = "Internal Server Error";
+                var response = new ErrorResponse
+                {
+                    StatusCode =
+                        StatusCodes.Status500InternalServerError,
+
+                    Message =
+                        "Internal Server Error",
+
+                    TraceId =
+                        context.TraceIdentifier
+                };
 
                 switch (ex)
                 {
                     case BusinessException businessException:
-                        statusCode = businessException.StatusCode;
-                        message = businessException.Message;
+
+                        response.StatusCode =
+                            businessException.StatusCode;
+
+                        response.Message =
+                            businessException.Message;
+
                         break;
 
                     case UnauthorizedAccessException:
-                        statusCode = StatusCodes.Status401Unauthorized;
-                        message = "Unauthorized";
+
+                        response.StatusCode =
+                            StatusCodes.Status401Unauthorized;
+
+                        response.Message =
+                            "Unauthorized";
+
                         break;
 
                     case KeyNotFoundException:
-                        statusCode = StatusCodes.Status404NotFound;
-                        message = "Resource Not Found";
+
+                        response.StatusCode =
+                            StatusCodes.Status404NotFound;
+
+                        response.Message =
+                            "Resource Not Found";
+
                         break;
                 }
 
-                context.Response.StatusCode = statusCode;
+                context.Response.StatusCode =
+                    response.StatusCode;
 
-                var response = new
-                {
-                    statusCode,
-                    message
-                };
-
-                await context.Response.WriteAsJsonAsync(response);
+                await context.Response.WriteAsJsonAsync(
+                    response);
             }
         }
     }

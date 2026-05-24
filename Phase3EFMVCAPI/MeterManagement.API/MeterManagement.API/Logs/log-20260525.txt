@@ -1,0 +1,13 @@
+2026-05-25 01:34:10.155 +03:00 [INF] Handling request: POST /api/Auth/login
+2026-05-25 01:34:11.124 +03:00 [INF] User admin@gmail.com logged in successfully
+2026-05-25 01:34:11.155 +03:00 [INF] Finished handling request with status code: 200
+2026-05-25 01:34:29.521 +03:00 [INF] Handling request: GET /api/Auth/users
+2026-05-25 01:34:29.663 +03:00 [INF] Finished handling request with status code: 200
+2026-05-25 01:34:57.012 +03:00 [INF] Handling request: GET /api/Auth/user/ezz@gmail.com
+2026-05-25 01:34:57.081 +03:00 [INF] Finished handling request with status code: 404
+2026-05-25 01:35:29.191 +03:00 [INF] Handling request: GET /api/Auth/user/ezzm@gmail.com
+2026-05-25 01:35:29.241 +03:00 [INF] Finished handling request with status code: 200
+2026-05-25 01:35:37.883 +03:00 [INF] Handling request: GET /api/Meters/my-meters
+2026-05-25 01:35:37.950 +03:00 [INF] Finished handling request with status code: 200
+2026-05-25 01:35:56.565 +03:00 [INF] Handling request: GET /api/Meters/status/1
+2026-05-25 01:35:56.679 +03:00 [INF] Finished handling request with status code: 200

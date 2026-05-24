@@ -1,12 +1,12 @@
-﻿using MeterManagement.API.Models;
-using MeterManagement.Domain.Enums;
+﻿using MeterManagement.Domain.Enums;
+using MeterManagement.Domain.Models;
 
 namespace MeterManagement.Domain.IRepo
 {
     public interface IMeterRepository
     {
         Task<List<Meter>> GetAll();
-        Task<Meter?> GetById(int id); // ? momken id mykon4 mwgood fyrg3ly exption  
+        Task<Meter?> GetById(int id);
         Task<Meter?> GetBySerial(string serialNumber);
         Task<List<Meter>> GetBySerials(List<string> serials);
         Task Add(Meter meter);

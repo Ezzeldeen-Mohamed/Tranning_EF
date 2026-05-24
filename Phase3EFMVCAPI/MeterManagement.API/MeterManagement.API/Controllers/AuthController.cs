@@ -12,72 +12,95 @@ namespace MeterManagement.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
-        public AuthController(IAuthService authservice)
+
+        public AuthController(IAuthService authService)
         {
-            _authService = authservice;
+            _authService = authService;
         }
 
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDto dto)
         {
-            var result = await _authService.Register(dto);
+            var response =
+                await _authService.Register(dto);
 
-            if (!result)
-                return BadRequest("Registration failed");
+            if (!response.IsSuccess)
+            {
+                return BadRequest(response);
+            }
 
-            return Ok("User created successfully");
+            return Created(
+                string.Empty,
+                response);
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginDto dto)
         {
-            var token = await _authService.Login(dto);
+            var response =
+                await _authService.Login(dto);
 
-            if (token == null)
-                return Unauthorized(new
-                {
-                    message = "Invalid email or password"
-                });
-            return Ok(new
+            if (!response.IsSuccess)
             {
-                token = token
-            });
+                return Unauthorized(response);
+            }
+
+            return Ok(response);
         }
 
         [Authorize(Roles = Roles.Admin)]
-        [HttpPost("ChangeRole")]
-        public async Task<IActionResult> ChangeRole(ChangeRoleDto dto)
+        [HttpPost("change-role")]
+        public async Task<IActionResult> ChangeRole(
+            ChangeRoleDto dto)
         {
-            var adminId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var adminId =
+                User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
-            var result = await _authService.ChangeUserRole(dto, adminId);
+            if (string.IsNullOrEmpty(adminId))
+            {
+                return Unauthorized();
+            }
 
-            if (!result)
-                return BadRequest("Failed");
+            var response =
+                await _authService.ChangeUserRole(
+                    dto,
+                    adminId);
 
-            return Ok("Role Updated");
+            if (!response.IsSuccess)
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
         }
 
         [Authorize(Roles = Roles.Admin)]
         [HttpGet("users")]
         public async Task<IActionResult> GetAllUsers()
         {
-            var users = await _authService.GetAllUsers();
-            return Ok(users);
+            var response =
+                await _authService.GetAllUsers();
+
+            return Ok(response);
         }
 
         [Authorize(Roles = Roles.Admin)]
         [HttpGet("user/{email}")]
-        public async Task<IActionResult> GetByEmail(string email)
+        public async Task<IActionResult> GetByEmail(
+            string email)
         {
-            var user = await _authService.GetByEmail(email);
-            return Ok(user);
+            var response =
+                await _authService.GetByEmail(email);
+
+            if (!response.IsSuccess)
+            {
+                return NotFound(response);
+            }
+
+            return Ok(response);
         }
-
-
     }
 }
-
 
 
 /*

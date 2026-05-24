@@ -22,39 +22,36 @@ namespace MeterManagement.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] MeterQueryParameters query)
         {
-            var result = await _service.GetAll(query);
-            return Ok(result);
+            var response = await _service.GetAll(query);
+
+            return Ok(response);
         }
 
         [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var meter = await _service.GetById(id);
-            return Ok(meter);
+            var response = await _service.GetById(id);
+
+            return Ok(response);
         }
 
         [Authorize(Roles = Roles.Admin)]
-        [HttpPost("add-meter")]
-        public async Task<IActionResult> Create([FromBody] MeterDto dto)
+        [HttpPost]
+        public async Task<IActionResult> Create(MeterDto dto)
         {
-            if (dto == null || string.IsNullOrEmpty(dto.SerialNumber))
-                return BadRequest("Invalid data");
+            var response = await _service.Create(dto);
 
-            await _service.Create(dto);
-            return Ok(new { message = "Meter Created Successfully" });
+            return Created(string.Empty, response);
         }
+
         [Authorize(Roles = Roles.Admin)]
         [HttpPost("bulk")]
         public async Task<IActionResult> CreateBulk(List<MeterDto> dtos)
         {
-            var rejected = await _service.CreateBulk(dtos);
+            var response = await _service.CreateBulk(dtos);
 
-            return Ok(new
-            {
-                message = "Bulk processed",
-                rejectedSerials = rejected
-            });
+            return Ok(response);
         }
 
         [Authorize]
@@ -63,87 +60,83 @@ namespace MeterManagement.API.Controllers
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
-            var result = await _service.GetByUser(userId);
+            var response = await _service.GetByUser(userId!);
 
-            return Ok(result);
+            return Ok(response);
         }
 
         [Authorize(Roles = Roles.Admin)]
         [HttpPost("import-excel")]
         public async Task<IActionResult> ImportExcel(IFormFile file)
         {
-            var result = await _service.ImportFromExcel(file);
-            return Ok(result);
+            var response = await _service.ImportFromExcel(file);
+
+            return Ok(response);
         }
 
-        [HttpPut("{id}")]
         [Authorize(Roles = Roles.Admin)]
-
+        [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, MeterDto dto)
         {
-            await _service.Update(id, dto);
-            return Ok("Updated");
+            var response = await _service.Update(id, dto);
+
+            return Ok(response);
         }
 
-
-        [HttpDelete("{id}")]
         [Authorize(Roles = Roles.Admin)]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             await _service.Delete(id);
-            return Ok("Deleted");
+
+            return NoContent();
         }
 
-        [HttpDelete("Soft/{id}")]
         [Authorize(Roles = Roles.Admin)]
+        [HttpDelete("soft/{id}")]
         public async Task<IActionResult> SoftDelete(int id)
         {
-            await _service.SoftDelete(id);
-            return Ok("Deleted");
+            var response = await _service.SoftDelete(id);
+
+            return Ok(response);
         }
 
-        [HttpPost("Restore/{id}")]
         [Authorize(Roles = Roles.Admin)]
+        [HttpPost("restore/{id}")]
         public async Task<IActionResult> Restore(int id)
         {
-            await _service.Restore(id);
-            return Ok("Meter Restored Successfully");
+            var response = await _service.Restore(id);
+
+            return Ok(response);
         }
 
         [Authorize(Roles = Roles.Admin)]
         [HttpPost("assign-meter")]
-        public async Task<IActionResult> AssignByEmail(AssignMeterDto dto)
+        public async Task<IActionResult> AssignMeter(AssignMeterDto dto)
         {
-            await _service.AssignMeterByEmail(dto);
-            return Ok("Meter assigned successfully");
+            var response = await _service.AssignMeterByEmail(dto);
 
+            return Ok(response);
         }
+
         [Authorize(Roles = Roles.Admin)]
         [HttpGet("status/{status}")]
         public async Task<IActionResult> GetByStatus(MeterStatus status)
         {
-            var result = await _service.GetByStatus(status);
-            return Ok(result);
+            var response = await _service.GetByStatus(status);
+
+            return Ok(response);
         }
+
         [Authorize(Roles = Roles.Agent)]
         [HttpPost("install")]
         public async Task<IActionResult> Install(InstallMeterDto dto)
         {
-
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
-            if (userId == null)
-                return Unauthorized();
+            var response = await _service.InstallMeter(dto.MeterId, userId!);
 
-            await _service.InstallMeter(dto.MeterId, userId);
-            return Ok(new
-            {
-                message = "Installed successfully",
-                meterId = dto.MeterId
-            });
+            return Ok(response);
         }
-
-
-
     }
 }

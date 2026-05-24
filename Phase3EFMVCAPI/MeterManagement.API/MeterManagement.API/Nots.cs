@@ -21,6 +21,7 @@ MyApp.sln
 ├── MyApp.Infrastructure
 │   ├── Repositories
 │   ├── Persistence
+│   ├── AuthServices
 │   ├── Configurations
 │   └── ExternalServices
 │   └── AppDbContext
@@ -40,9 +41,9 @@ Depandency flow:-
 
         API
          ↓
-        Application
-         ↓
         Infrastructure
+         ↓
+        Application
          ↓
         Domain
 
